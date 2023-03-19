@@ -6,7 +6,7 @@
 #define Ekaitz 0x6
 #define Nirav 0x7
 #define Clovis 0x8
-#define Emmerson 0x9
+#define Emerson 0x9
 #define Soline 0xA
 
 #define Trickster 0x54

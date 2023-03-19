@@ -22,8 +22,8 @@ Nirav[X]
 ## ClovisName
 Clovis[X]
 
-## EmmersonName
-Emmerson[X]
+## EmersonName
+Emerson[X]
 
 ## SolineName
 Soline[X]
@@ -60,7 +60,7 @@ Liable to flee at the drop of a feather.[X]
 Priest assigned to _____ castle town.[N]
 Bleeding heart pacifist.[X]
 
-## EmmersonDesc
+## EmersonDesc
 Apprentice squire mentored by Duncan.[N]
 Training to be like his deceased parents.[X]
 
@@ -80,51 +80,51 @@ Whisper[X]
 ## VeteranName
 Veteran[X]
 
-## WarriorName
+## VarangianName
 Varangian[X]
 
-## RangerName
-Ranger[X]
+## SkirmisherName
+Skirmisher[X]
 
 ## HarrierName
 Harrier[X]
 
-## BishopName
-Bishop[X]
+## SaintName
+Saint[X]
 
-## RecruitName
-Recruit[X]
+## SquireName
+Squire[X]
 
-## KnightName
-Knight[X]
+## JuggernautName
+Juggernaut[X]
 
-## SummonerName
-Summoner[X]
+## ConjurerName
+Conjurer[X]
 
 ## PuppetName
 Puppet[X]
 
-## LordDesc
+## TricksterDesc
 Bow and staff-trained support[N]
 noble of House _____.[X]
 
-## ValkyrieDesc
+## SpellstriderDesc
 Affluent knife and magic user[N]
 taught by higher education.[X]
 
-## RogueDesc
+## WhisperDesc
 Invisible whispers on the field[N]
 who vanish as soon as they come.[X]
 
-## HeroDesc
+## VeteranDesc
 Highly renowned captain of a[N]
 company of mercenaries.[X]
 
-## WarriorDesc
+## VarangianDesc
 Combat juggernauts whose physical[N]
 strength is wholly unmatched.[X]
 
-## RangerDesc
+## SkirmisherDesc
 Crafty horsemen who rain down[N]
 hell on foes from afar.[X]
 
@@ -132,18 +132,18 @@ hell on foes from afar.[X]
 Magic-wielding flier who hits like[N]
 a cannon, but shatters like glass.[X]
 
-## BishopDesc
+## SaintDesc
 Holy men who grant salvation with[N]
 the power of healing staves.[X]
 
-## RecruitDesc
+## SquireDesc
 Young soldier with immense potential.[N]
 Can promote with enough experience.[X]
 
-## KnightDesc
+## JuggernautDesc
 Heavily armored soldier proud to[N]
 boast of their growth as a unit.[X]
 
-## SummonerDesc
+## ConjurerDesc
 Ethereal necromancer who can[N]
 manifest a puppet soldier.[X]
