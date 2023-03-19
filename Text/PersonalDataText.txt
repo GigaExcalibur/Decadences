@@ -1,0 +1,62 @@
+## HeHim
+He/Him[X]
+
+## SheHer
+She/Her[X]
+
+## TheyThem
+They/Them[X]
+
+## HeThey
+He/They[X]
+
+## SheThey
+She/They[X]
+
+## HeShe
+He/She[X]
+
+## TheySheHe
+They/She/He[X]
+
+## Age14
+14[X]
+
+## Age21
+21[X]
+
+## Age28
+28[X]
+
+## Age35
+35[X]
+
+## Age42
+42[X]
+
+## Age56
+56[X]
+
+## DarinaFullName
+Darina von [X]
+
+## DarinaHobby
+.[X]
+
+## EirikaLike1ID
+pi[0xF1]a coladas[X]
+
+## EirikaLike2ID
+[0x87][0x85]tti[0x8B][0x87] [0x83][0x81][0x96][0x87][0x88]t i[0x8B] t[0x88][0x85] [0x8F][0x81]i[0x8B][X]
+
+## EirikaDislike1ID
+health food[X]
+
+## EirikaDislike2ID
+yoga[X]
+
+## EirikaAgeID
+1337[X]
+
+## EirikaHeightID
+420cm[X]

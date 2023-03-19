@@ -1,0 +1,146 @@
+## DarinaName
+Darina[X]
+
+## EugeniaName
+Eugenia[X]
+
+## CalvinName
+Calvin[X]
+
+## AleynaName
+Aleyna[X]
+
+## DuncanName
+Duncan[X]
+
+## EkaitzName
+Ekaitz[X]
+
+## NiravName
+Nirav[X]
+
+## ClovisName
+Clovis[X]
+
+## EmmersonName
+Emmerson[X]
+
+## SolineName
+Soline[X]
+
+## DarinaDesc
+Newly crowned lord of House _____.[N]
+Indecisive to the point of ignobility.[X]
+
+## EugeniaDesc
+Envoy from the elite _____.[N]
+Fiercely loyal to Darina.[X]
+
+## CalvinDesc
+Spy in the employ of House ______.[N]
+Flirtatious by his very nature.[X]
+
+## AleynaDesc
+Merc captain contracted by Eugenia.[N]
+Only cares for gold in this world.[X]
+
+## DuncanDesc
+Former retainer to Lord ______.[N]
+Lusts for battle and bloodshed.[X]
+
+## EkaitzDesc
+Mercenary in Aleyna's company.[N]
+Chronic scoundrel and drifter.[X]
+
+## NiravDesc
+Rookie knight employed by House _____.[N]
+Liable to flee at the drop of a feather.[X]
+
+## ClovisDesc
+Priest assigned to _____ castle town.[N]
+Bleeding heart pacifist.[X]
+
+## EmmersonDesc
+Apprentice squire mentored by Duncan.[N]
+Training to be like his deceased parents.[X]
+
+## SolineDesc
+A mysterious woman concealed by Lord _____.[N]
+Possesses the power to raise the dead.[X]
+
+## LordName
+Lord[X]
+
+## ValkyrieName
+Valkyrie[X]
+
+## RogueName
+Rogue[X]
+
+## HeroName
+Hero[X]
+
+## WarriorName
+Warrior[X]
+
+## RangerName
+Ranger[X]
+
+## HarrierName
+Harrier[X]
+
+## BishopName
+Bishop[X]
+
+## RecruitName
+Recruit[X]
+
+## KnightName
+Knight[X]
+
+## SummonerName
+Summoner[X]
+
+## LordDesc
+Bow and staff-trained support[N]
+noble of House _____.[X]
+
+## ValkyrieDesc
+Affluent knife and magic user[N]
+taught by higher education.[X]
+
+## RogueDesc
+Invisible whispers on the field[N]
+who vanish as soon as they come.[X]
+
+## HeroDesc
+Highly renowned captain of a[N]
+company of mercenaries.[X]
+
+## WarriorDesc
+Combat juggernauts whose physical[N]
+strength is wholly unmatched.[X]
+
+## RangerDesc
+Crafty horsemen who rain down[N]
+hell on foes from afar.[X]
+
+## HarrierDesc
+Magic-wielding flier who hits like[N]
+a cannon, but shatters like glass.[X]
+
+## BishopDesc
+Holy men who grant salvation with[N]
+the power of healing staves.[X]
+
+## RecruitDesc
+Young soldier with immense potential.[N]
+Can promote with enough experience.[X]
+
+## KnightDesc
+Heavily armored soldier proud to[N]
+boast of their growth as a unit.[X]
+
+## SummonerDesc
+Ethereal necromancer who can[N]
+manifest a puppet soldier.[X]
