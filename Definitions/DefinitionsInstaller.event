@@ -1,0 +1,7 @@
+#include "CharClassDefinitions.txt"
+
+#include "ItemDefinitions.txt"
+
+#include "PortraitDefinitions.txt"
+
+#include "AnimationDefinitions.txt"
