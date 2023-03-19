@@ -1,0 +1,52 @@
+// Darina animations, start at vanilla trainees
+#define LordDarinaBow 0x92
+#define LordDarinaStaff 0x93
+#define LordDarinaUnarmed 0x94
+
+// Eugenia animations, staff is optional
+#define ValkyrieEugeniaKnife 0x95
+#define ValkyrieEugeniaTome 0x96
+#define ValkyrieEugeniaStaff 0x97
+
+// Calvin animations
+#define RogueCalvinSword 0x98
+#define RogueCalvinKnife 0x99
+#define RogueCalvinUnarmed 0x9A
+
+// Aleyna animations
+#define HeroAleynaSword 0x9B
+#define HeroAleynaAxe 0x9C
+#define HeroAleynaHandAxe 0x9D
+#define HeroAleynaUnarmed 0x9e
+
+// Duncan animations
+#define WarriorDuncanAxe 0x9F
+#define WarriorDuncanHandAxe 0xA0
+#define WarriorDuncanBow 0xA1
+#define WarriorDuncanUnarmed 0xA2
+
+// Ekaitz animations
+#define RangerEkaitzLance 0xA3
+#define RangerEkaitzBow 0xA4
+#define RangerEkaitzUnarmed 0xA5
+
+// Nirav animations
+#define HarrierNiravLance 0xA6
+#define HarrierNiravTome 0xA7
+
+// Clovis animations
+#define BishopClovisTome 0xA8
+#define BishopClovisStaff 0xA9
+
+// Emmerson animations
+#define RecruitEmmersonLance 0xAA
+#define RecruitEmmersonUnarmed 0xAB
+
+#define KnightEmmersonSword 0xAC
+#define KnightEmmersonLance 0xAD
+#define KnightEmmersonAxe 0xAe
+#define KnightEmmersonHandAxe 0xAF
+#define KnightEmmersonUnarmed 0xB0
+
+// Soline animations
+#define SummonerSolineTome 0xB1

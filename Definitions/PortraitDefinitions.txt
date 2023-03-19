@@ -1,0 +1,25 @@
+#define DarinaMug 0x01
+#define EugeniaMug 0x02
+#define CalvinMug 0x03
+#define AleynaMug 0x04
+#define DuncanMug 0x05
+#define EkaitzMug 0x06
+#define NiravMug 0x07
+#define ClovisMug 0x08
+#define EmmersonMug 0x09
+#define SolineMug 0x0A
+
+/* Uncomment if using custom mugs
+#define DarinaMugBloody 0x0B
+#define EugeniaMugBloody 0x0C
+#define CalvinMugBloody 0x0D
+#define AleynaMugBloody 0x0E
+#define DuncanMugBloody 0x0F
+#define EkaitzMugBloody 0x10
+#define NiravMugBloody 0x11
+#define ClovisMugBloody 0x12
+#define EmmersonMugBloody 0x13
+#define SolineMugBloody 0x14
+ */
+
+// Villain mugs go after 0x14
