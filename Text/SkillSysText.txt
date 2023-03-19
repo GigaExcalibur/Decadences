@@ -1,0 +1,184 @@
+# 0xd4c LikesText
+Info:[X]
+
+## DislikesText
+Hobby:[X]
+
+## HeightText
+Height:[X]
+
+## AgeText
+Age:[X]
+
+## HouseText
+//first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+//for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[N]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[N]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[N]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[N]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[N]
+by having this unit arrive.[X]
+
+## LordMustEscapeLastText
+This unit must escape last.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## UM_GaidenBlackMagic
+ B. Magic[X]
+
+## UM_GaidenWhiteMagic
+ W. Magic[X]
+
+## UM_GaidenMagicDesc
+Spend HP to cast spells[NL]
+this unit has learned.[X]
+
+## GaidenMagicUMErrorText
+You don't have enough HP[NL]
+to cast any spells.[X]
+
+## GaidenMagicSpellMenuErrorText
+You don't have enough HP[NL]
+to cast this spell.[X]
+
+## GaidenMagicHPCostText
+Cost[X]
+
+## PrepScreenUseSkillScroll
+ Skill learned[X]
+
+## SkillScrollDesc
+A scroll that teaches[N]
+a skill when used.[X]
+
+## SS_TalkText
+Talk[X]
+
+## SS_SkillsText
+Skills[X]
+
+## SS_TalkRText
+Character with whom this unit[N]
+may talk on the battlefield.[X]
+
+## SS_SkillsRText
+Special abilities that can do[N]
+many different things.[X]
+
+## SS_SkillsDefaultRText
+No skill description found.[X]
+
+## PersonalDataDesc1
+Press Select to toggle[N]
+between stats and growths.[X]
+
+## PersonalDataDesc2
+This unit's personal[N]
+stats and skills.[X]
+
+## LeadText
+Lead[X]
+
+## LeadRText
+Leadership. Grants +5 Hit +3 Avo[N]
+to all ally units per star.[X]
+
+## AllyStarCountRText
+Total number of leadership stars[N]
+for ally units.[X]
+
+## EnemyStarCountRText
+Total number of leadership stars[N]
+for enemy units.[X]
+
+## DonateURL
+donorbox.org/donate-to-circles[X]
+
+## SS_BiorhythmText
+Bio[X]
+
+## SS_BiorhythmRText
+Biorhythm. Affects[N]
+Hit and Avoid.[X]
+
+## SS_BiorhythmNeutral
+Neutral[X]
+
+## SS_BiorhythmGood
+Good[X]
+
+## SS_BiorhythmGreat
+Great[X]
+
+## SS_BiorhythmBest
+Best[X]
+
+## SS_BiorhythmPoor
+Poor[X]
+
+## SS_BiorhythmBad
+Bad[X]
+
+## SS_BiorhythmWorst
+Worst[X]
+
+## LikesDesc
+This character's full[N]
+name and pronouns.[X]
+
+## DislikesDesc
+This character's[N]
+primary hobby.[X]
+
+## AgeDesc
+This character's current age.[X]
+
+## HeightDesc
+This character's height.[X]
+
