@@ -9,13 +9,15 @@
 #define Emmerson 0x9
 #define Soline 0xA
 
-#define LordDarina 0x54
-#define ValkyrieEugenia 0x55
-#define RogueCalvin 0x56
-#define HeroAleyna 0x57
-#define WarriorDuncan 0x58
-#define HarrierNirav 0x59
-#define BishopClovis 0x5A
-#define RecruitEmmerson 0x5B
-#define KnightEmmerson 0x5C
-#define SummonerSoline 0x5D
+#define Trickster 0x54
+#define Spellstrider 0x55
+#define Whisper 0x56
+#define Veteran 0x57
+#define Varangian 0x58
+#define Skirmisher 0x59
+#define Harrier 0x5A
+#define Saint 0x5B
+#define Squire 0x5C
+#define Juggernaut 0x5D
+#define Conjurer 0x5E
+#define Puppet 0x51

@@ -68,20 +68,20 @@ Training to be like his deceased parents.[X]
 A mysterious woman concealed by Lord _____.[N]
 Possesses the power to raise the dead.[X]
 
-## LordName
-Lord[X]
+## TricksterName
+Trickster[X]
 
-## ValkyrieName
-Valkyrie[X]
+## SpellstriderName
+Spellstrider[X]
 
-## RogueName
-Rogue[X]
+## WhisperName
+Whisper[X]
 
-## HeroName
-Hero[X]
+## VeteranName
+Veteran[X]
 
 ## WarriorName
-Warrior[X]
+Varangian[X]
 
 ## RangerName
 Ranger[X]
@@ -100,6 +100,9 @@ Knight[X]
 
 ## SummonerName
 Summoner[X]
+
+## PuppetName
+Puppet[X]
 
 ## LordDesc
 Bow and staff-trained support[N]
