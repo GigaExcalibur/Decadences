@@ -1,15 +1,15 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,CharismaID
-Seth,SaviorID
-Gilliam,RallyDefID
-Franz,SealStrID
-Moulder,RallyResID
-Vanessa,SpurSpdID
-Ross,ParagonID
-Neimi,RallyLukID
-Colm,RallySpdID
-Garcia,ColossusID
+Darina,SupplyID
+Eugenia,SupplyID
+Calvin,SupplyID
+Aleyna,SupplyID
+Duncan,SupplyID
+Ekaitz,SupplyID
+Nirav,SupplyID
+Clovis,SupplyID
+Emmerson,SupplyID
+Soline,SupplyID
 Innes,BowRangeUpID
 Lute,ParagonID
 Natasha,SealLukID
