@@ -37,11 +37,95 @@ They/She/He[X]
 ## Age56
 56[X]
 
+## FiveFootTwo
+5'2[CloseQuote][X]
+
+## FiveFootFour
+5'4[CloseQuote][X]
+
+## FiveFootSix
+5'6[CloseQuote][X]
+
+## FiveFootEight
+5'8[CloseQuote][X]
+
+## FiveFootNine
+5'9[CloseQuote][X]
+
+## FiveFootTen
+5'10[CloseQuote][X]
+
+## FiveFootEleven
+5'11[CloseQuote][X]
+
+## SixFoot
+6'0[CloseQuote][X]
+
+## SixFootOne
+6'1[CloseQuote][X]
+
+## SixFootThree
+6'3[CloseQuote][X]
+
 ## DarinaFullName
 Darina von [X]
 
 ## DarinaHobby
-.[X]
+Stargazing[X]
+
+## EugeniaFullName
+Eugenia .[X]
+
+## EugeniaHobby
+Gardening[X]
+
+## CalvinFullName
+Calvin [X]
+
+## CalvinHobby
+Flirting[X]
+
+## AleynaFullName
+Aleyna [X]
+
+## AleynaHobby
+Fishing[X]
+
+## DuncanFullName
+Duncan [X]
+
+## DuncanHobby
+Hunting[X]
+
+## EkaitzFullName
+That's private, buddy.[X]
+
+## EkaitzHobby
+Playing cards[X]
+
+## NiravFullName
+Nirav von [X]
+
+## NiravHobby
+Reading escapist fiction[X]
+
+## ClovisFullName
+Clovis Lucian[X]
+
+## ClovisHobby
+Paper plays[X]
+
+## EmersonFullName
+Emerson[X]
+
+## EmersonHobby
+I don't have time for that.[X]
+
+## SolineFullName
+Soline Charafei[X]
+
+## SolineHobby
+Glassmaking (hourglasses)[X]
 
 ## EirikaLike1ID
 pi[0xF1]a coladas[X]
