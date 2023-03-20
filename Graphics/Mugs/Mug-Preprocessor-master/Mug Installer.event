@@ -1,0 +1,70 @@
+ALIGN 4
+AleynaMugLabel:
+#incbin "Aleyna_mug.dmp"
+#incbin "Aleyna_frames.dmp"
+#incbin "Aleyna_palette.dmp"
+#incbin "Aleyna_minimug.dmp"
+
+ALIGN 4
+CalvinMugLabel:
+#incbin "Calvin_mug.dmp"
+#incbin "Calvin_frames.dmp"
+#incbin "Calvin_palette.dmp"
+#incbin "Calvin_minimug.dmp"
+
+ALIGN 4
+ClovisMugLabel:
+#incbin "Clovis_mug.dmp"
+#incbin "Clovis_frames.dmp"
+#incbin "Clovis_palette.dmp"
+#incbin "Clovis_minimug.dmp"
+
+ALIGN 4
+DarinaMugLabel:
+#incbin "Darina_mug.dmp"
+#incbin "Darina_frames.dmp"
+#incbin "Darina_palette.dmp"
+#incbin "Darina_minimug.dmp"
+
+ALIGN 4
+DuncanMugLabel:
+#incbin "Duncan_mug.dmp"
+#incbin "Duncan_frames.dmp"
+#incbin "Duncan_palette.dmp"
+#incbin "Duncan_minimug.dmp"
+
+ALIGN 4
+EkaitzMugLabel:
+#incbin "Ekaitz_mug.dmp"
+#incbin "Ekaitz_frames.dmp"
+#incbin "Ekaitz_palette.dmp"
+#incbin "Ekaitz_minimug.dmp"
+
+ALIGN 4
+EmersonMugLabel:
+#incbin "Emerson_mug.dmp"
+#incbin "Emerson_frames.dmp"
+#incbin "Emerson_palette.dmp"
+#incbin "Emerson_minimug.dmp"
+
+ALIGN 4
+EugeniaMugLabel:
+#incbin "Eugenia_mug.dmp"
+#incbin "Eugenia_frames.dmp"
+#incbin "Eugenia_palette.dmp"
+#incbin "Eugenia_minimug.dmp"
+
+ALIGN 4
+NiravMugLabel:
+#incbin "Nirav_mug.dmp"
+#incbin "Nirav_frames.dmp"
+#incbin "Nirav_palette.dmp"
+#incbin "Nirav_minimug.dmp"
+
+ALIGN 4
+SolineMugLabel:
+#incbin "Soline_mug.dmp"
+#incbin "Soline_frames.dmp"
+#incbin "Soline_palette.dmp"
+#incbin "Soline_minimug.dmp"
+

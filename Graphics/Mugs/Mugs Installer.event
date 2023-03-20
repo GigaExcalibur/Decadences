@@ -1,5 +1,13 @@
+#include "Mug-Preprocessor-master\Mug Installer.event"
 
-
-#include "Portraits/Installer.event"
-
-
+// setMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
+setMugEntry(DarinaMug, DarinaMugLabel, 2, 5, 3, 3)
+setMugEntry(EugeniaMug, EugeniaMugLabel, 3, 5, 3, 3)
+setMugEntry(CalvinMug, CalvinMugLabel, 3, 5, 3, 3)
+setMugEntry(AleynaMug, AleynaMugLabel, 2, 5, 3, 3)
+setMugEntry(DuncanMug, DuncanMugLabel, 3, 4, 3, 2)
+setMugEntry(EkaitzMug, EkaitzMugLabel, 3, 5, 3, 3)
+setMugEntry(NiravMug, NiravMugLabel, 3, 5, 3, 3)
+setMugEntry(ClovisMug, ClovisMugLabel, 4, 5, 4, 3)
+setMugEntry(EmersonMug, EmersonMugLabel, 2, 6, 3, 4)
+setMugEntry(SolineMug, SolineMugLabel, 3, 6, 2, 4)

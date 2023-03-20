@@ -53,6 +53,9 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
+  //Stat screen blink
+  #include "ExternalHacks\StatScreenBlink\SSBlink.event"
+
   // Display damage numbers in battle animations.
   #include "ExternalHacks/AnimNumbers/AnimNumbers.event"
 
