@@ -1,30 +1,44 @@
-
-
 #include "Internals.event"
 #include "GeneratedInstaller.event"
 
-
-//First free SMS is 107
-#define Cavalier_M_Sword_SALVAGEDstand 107 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand 108 
- 
- 
-//First free MMS is 127 and will show up if you've expanded classes.
-#define Cavalier_M_Sword_SALVAGEDwalk 127 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk 128 
- 
-
+#define TricksterSMS 0x45
+#define SpellstriderSMS 0x46
+#define WhisperSMS 0x47
+#define VeteranSMS 0x48
+#define VarangianSMS 0x49
+#define SkirmisherSMS 0x4A
+#define HarrierSMS 0x4B
+#define SaintSMS 0x4C
+#define SquireSMS 0x4D
+#define JuggernautSMS 0x4E
+#define ConjurerSMS 0x4F
 
 //Copy from here 
 PUSH 
+SetSMS(SaintSMS, 0, Bishop_M_Hatless_Permafroststand_Data) 
+SetSMS(HarrierSMS, 1, Custom_Flier_Harrier_F_Ayrstand_Data) 
+SetSMS(VeteranSMS, 0, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand_Data) 
+SetSMS(JuggernautSMS, 1, Knight_M_Lance__SALVAGED_BoneManSethstand_Data) 
+SetSMS(TricksterSMS, 0, Marksman_F_Nuramonstyle_ArcherBiasstand_Data) 
+SetSMS(SkirmisherSMS, 1, Master_Knight_M_Bow_Knight_Bow_bloodstand_Data) 
+SetSMS(SquireSMS, 1, Recruit_M_Flagbearer_Dutch_Introvertstand_Data) 
+SetSMS(WhisperSMS, 0, Rogue_M_ISstand_Data) 
+SetSMS(ConjurerSMS, 0, Summoner_F_16x16_Unknownstand_Data) 
+SetSMS(SpellstriderSMS, 1, Troubadour_F_Thaumaturge_Pikmin_Derstand_Data) 
+SetSMS(VarangianSMS, 1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data) 
  
-SetSMS(Cavalier_M_Sword_SALVAGEDstand, 1, Cavalier_M_Sword_SALVAGEDstand_Data) 
-SetSMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand, 0, Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand_Data) 
  
- 
-SetMMS(Cavalier_M_Sword_SALVAGEDwalk, Cavalier_M_Sword_SALVAGEDwalk_Data, DemonKingAP) 
-SetMMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk, Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk_Data, DemonKingAP) 
- 
+SetMMS(Saint-1, Bishop_M_Hatless_Permafrostwalk_Data, DemonKingAP) 
+SetMMS(Harrier-1, Custom_Flier_Harrier_F_Ayrwalk_Data, DemonKingAP) 
+SetMMS(Veteran-1, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk_Data, DemonKingAP) 
+SetMMS(Juggernaut-1, Knight_M_Lance__SALVAGED_BoneManSethwalk_Data, DemonKingAP) 
+SetMMS(Trickster-1, Marksman_F_Nuramonstyle_ArcherBiaswalk_Data, DemonKingAP) 
+SetMMS(Skirmisher-1, Master_Knight_M_Bow_Knight_Bow_bloodwalk_Data, DemonKingAP) 
+SetMMS(Squire-1, Recruit_M_Flagbearer_Dutch_Introvertwalk_Data, DemonKingAP) 
+SetMMS(Whisper-1, Rogue_M_ISwalk_Data, DemonKingAP) 
+SetMMS(Conjurer-1, Summoner_F_Unknownwalk_Data, DemonKingAP) 
+SetMMS(Spellstrider-1, Troubadour_F_Thaumaturge_Pikmin_Derwalk_Data, DemonKingAP) 
+SetMMS(Varangian-1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data, DemonKingAP)  
 POP 
 //Copy until here 
 

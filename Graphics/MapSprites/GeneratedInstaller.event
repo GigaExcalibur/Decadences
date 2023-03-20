@@ -6,13 +6,31 @@
  
 /* 
 //First free SMS is 107
-#define Cavalier_M_Sword_SALVAGEDstand 107 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand 108 
+#define Bishop_M_Hatless_Permafroststand 107 
+#define Custom_Flier_Harrier_F_Ayrstand 108 
+#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand 109 
+#define Knight_M_Lance__SALVAGED_BoneManSethstand 110 
+#define Marksman_F_Nuramonstyle_ArcherBiasstand 111 
+#define Master_Knight_M_Bow_Knight_Bow_bloodstand 112 
+#define Recruit_M_Flagbearer_Dutch_Introvertstand 113 
+#define Rogue_M_ISstand 114 
+#define Summoner_F_16x16_Unknownstand 115 
+#define Troubadour_F_Thaumaturge_Pikmin_Derstand 116 
+#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand 117 
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
-#define Cavalier_M_Sword_SALVAGEDwalk 127 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk 128 
+#define Bishop_M_Hatless_Permafrostwalk 127 
+#define Custom_Flier_Harrier_F_Ayrwalk 128 
+#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk 129 
+#define Knight_M_Lance__SALVAGED_BoneManSethwalk 130 
+#define Marksman_F_Nuramonstyle_ArcherBiaswalk 131 
+#define Master_Knight_M_Bow_Knight_Bow_bloodwalk 132 
+#define Recruit_M_Flagbearer_Dutch_Introvertwalk 133 
+#define Rogue_M_ISwalk 134 
+#define Summoner_F_Unknownwalk 135 
+#define Troubadour_F_Thaumaturge_Pikmin_Derwalk 136 
+#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk 137 
  
 */ 
  
@@ -22,12 +40,30 @@
 //Copy from here 
 PUSH 
  
-SetSMS(Cavalier_M_Sword_SALVAGEDstand, 1, Cavalier_M_Sword_SALVAGEDstand_Data) 
-SetSMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand, 1, Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand_Data) 
+SetSMS(Bishop_M_Hatless_Permafroststand, 1, Bishop_M_Hatless_Permafroststand_Data) 
+SetSMS(Custom_Flier_Harrier_F_Ayrstand, 1, Custom_Flier_Harrier_F_Ayrstand_Data) 
+SetSMS(Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand, 1, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand_Data) 
+SetSMS(Knight_M_Lance__SALVAGED_BoneManSethstand, 1, Knight_M_Lance__SALVAGED_BoneManSethstand_Data) 
+SetSMS(Marksman_F_Nuramonstyle_ArcherBiasstand, 1, Marksman_F_Nuramonstyle_ArcherBiasstand_Data) 
+SetSMS(Master_Knight_M_Bow_Knight_Bow_bloodstand, 1, Master_Knight_M_Bow_Knight_Bow_bloodstand_Data) 
+SetSMS(Recruit_M_Flagbearer_Dutch_Introvertstand, 1, Recruit_M_Flagbearer_Dutch_Introvertstand_Data) 
+SetSMS(Rogue_M_ISstand, 1, Rogue_M_ISstand_Data) 
+SetSMS(Summoner_F_16x16_Unknownstand, 1, Summoner_F_16x16_Unknownstand_Data) 
+SetSMS(Troubadour_F_Thaumaturge_Pikmin_Derstand, 1, Troubadour_F_Thaumaturge_Pikmin_Derstand_Data) 
+SetSMS(Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand, 1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data) 
  
  
-SetMMS(Cavalier_M_Sword_SALVAGEDwalk, Cavalier_M_Sword_SALVAGEDwalk_Data, DemonKingAP) 
-SetMMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk, Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk_Data, DemonKingAP) 
+SetMMS(Bishop_M_Hatless_Permafrostwalk, Bishop_M_Hatless_Permafrostwalk_Data, DemonKingAP) 
+SetMMS(Custom_Flier_Harrier_F_Ayrwalk, Custom_Flier_Harrier_F_Ayrwalk_Data, DemonKingAP) 
+SetMMS(Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk_Data, DemonKingAP) 
+SetMMS(Knight_M_Lance__SALVAGED_BoneManSethwalk, Knight_M_Lance__SALVAGED_BoneManSethwalk_Data, DemonKingAP) 
+SetMMS(Marksman_F_Nuramonstyle_ArcherBiaswalk, Marksman_F_Nuramonstyle_ArcherBiaswalk_Data, DemonKingAP) 
+SetMMS(Master_Knight_M_Bow_Knight_Bow_bloodwalk, Master_Knight_M_Bow_Knight_Bow_bloodwalk_Data, DemonKingAP) 
+SetMMS(Recruit_M_Flagbearer_Dutch_Introvertwalk, Recruit_M_Flagbearer_Dutch_Introvertwalk_Data, DemonKingAP) 
+SetMMS(Rogue_M_ISwalk, Rogue_M_ISwalk_Data, DemonKingAP) 
+SetMMS(Summoner_F_Unknownwalk, Summoner_F_Unknownwalk_Data, DemonKingAP) 
+SetMMS(Troubadour_F_Thaumaturge_Pikmin_Derwalk, Troubadour_F_Thaumaturge_Pikmin_Derwalk_Data, DemonKingAP) 
+SetMMS(Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data, DemonKingAP) 
  
 POP 
 //Copy until here 
@@ -37,12 +73,48 @@ POP
 //SMS Image Data 
  
 ALIGN 4 
-Cavalier_M_Sword_SALVAGEDstand_Data: 
-#incbin "dmp/Cavalier_M_Sword_SALVAGEDstand.dmp" 
+Bishop_M_Hatless_Permafroststand_Data: 
+#incbin "dmp/Bishop_M_Hatless_Permafroststand.dmp" 
  
 ALIGN 4 
-Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand_Data: 
-#incbin "dmp/Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand.dmp" 
+Custom_Flier_Harrier_F_Ayrstand_Data: 
+#incbin "dmp/Custom_Flier_Harrier_F_Ayrstand.dmp" 
+ 
+ALIGN 4 
+Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand_Data: 
+#incbin "dmp/Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand.dmp" 
+ 
+ALIGN 4 
+Knight_M_Lance__SALVAGED_BoneManSethstand_Data: 
+#incbin "dmp/Knight_M_Lance__SALVAGED_BoneManSethstand.dmp" 
+ 
+ALIGN 4 
+Marksman_F_Nuramonstyle_ArcherBiasstand_Data: 
+#incbin "dmp/Marksman_F_Nuramonstyle_ArcherBiasstand.dmp" 
+ 
+ALIGN 4 
+Master_Knight_M_Bow_Knight_Bow_bloodstand_Data: 
+#incbin "dmp/Master_Knight_M_Bow_Knight_Bow_bloodstand.dmp" 
+ 
+ALIGN 4 
+Recruit_M_Flagbearer_Dutch_Introvertstand_Data: 
+#incbin "dmp/Recruit_M_Flagbearer_Dutch_Introvertstand.dmp" 
+ 
+ALIGN 4 
+Rogue_M_ISstand_Data: 
+#incbin "dmp/Rogue_M_ISstand.dmp" 
+ 
+ALIGN 4 
+Summoner_F_16x16_Unknownstand_Data: 
+#incbin "dmp/Summoner_F_16x16_Unknownstand.dmp" 
+ 
+ALIGN 4 
+Troubadour_F_Thaumaturge_Pikmin_Derstand_Data: 
+#incbin "dmp/Troubadour_F_Thaumaturge_Pikmin_Derstand.dmp" 
+ 
+ALIGN 4 
+Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data: 
+#incbin "dmp/Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand.dmp" 
  
  
  
@@ -50,10 +122,46 @@ Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand_Data:
 //MMS Image Data 
  
 ALIGN 4 
-Cavalier_M_Sword_SALVAGEDwalk_Data: 
-#incbin "dmp/Cavalier_M_Sword_SALVAGEDwalk.dmp" 
+Bishop_M_Hatless_Permafrostwalk_Data: 
+#incbin "dmp/Bishop_M_Hatless_Permafrostwalk.dmp" 
  
 ALIGN 4 
-Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk_Data: 
-#incbin "dmp/Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk.dmp" 
+Custom_Flier_Harrier_F_Ayrwalk_Data: 
+#incbin "dmp/Custom_Flier_Harrier_F_Ayrwalk.dmp" 
+ 
+ALIGN 4 
+Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk_Data: 
+#incbin "dmp/Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk.dmp" 
+ 
+ALIGN 4 
+Knight_M_Lance__SALVAGED_BoneManSethwalk_Data: 
+#incbin "dmp/Knight_M_Lance__SALVAGED_BoneManSethwalk.dmp" 
+ 
+ALIGN 4 
+Marksman_F_Nuramonstyle_ArcherBiaswalk_Data: 
+#incbin "dmp/Marksman_F_Nuramonstyle_ArcherBiaswalk.dmp" 
+ 
+ALIGN 4 
+Master_Knight_M_Bow_Knight_Bow_bloodwalk_Data: 
+#incbin "dmp/Master_Knight_M_Bow_Knight_Bow_bloodwalk.dmp" 
+ 
+ALIGN 4 
+Recruit_M_Flagbearer_Dutch_Introvertwalk_Data: 
+#incbin "dmp/Recruit_M_Flagbearer_Dutch_Introvertwalk.dmp" 
+ 
+ALIGN 4 
+Rogue_M_ISwalk_Data: 
+#incbin "dmp/Rogue_M_ISwalk.dmp" 
+ 
+ALIGN 4 
+Summoner_F_Unknownwalk_Data: 
+#incbin "dmp/Summoner_F_Unknownwalk.dmp" 
+ 
+ALIGN 4 
+Troubadour_F_Thaumaturge_Pikmin_Derwalk_Data: 
+#incbin "dmp/Troubadour_F_Thaumaturge_Pikmin_Derwalk.dmp" 
+ 
+ALIGN 4 
+Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data: 
+#incbin "dmp/Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk.dmp" 
  

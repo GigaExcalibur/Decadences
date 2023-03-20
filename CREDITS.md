@@ -8,4 +8,17 @@ Ekaitz - LaurentLacroix
 Nirav - LaurentLacroix
 Clovis - Free, Kanna
 Emerson - Levin64
-Soline - Plant
+Soline - IS (FE8 formatting by Plant)
+
+# Map Sprites
+Trickster - ArcherBias
+Spellstrider - Pikmin, Der
+Whisper - IS
+Veteran - Pikmin, Pushwall
+Varangian - Rasdel, Jey the Count
+Skirmisher - Blood
+Harrier - Ayr
+Saint - Permafrost
+Squire - Dutch Introvert
+Juggernaut - SALVAGED, BoneManSeth
+Conjurer - Unknown
