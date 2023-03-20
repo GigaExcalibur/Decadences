@@ -23,5 +23,3 @@
 #define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
 
 //////////////Installed animations go here:
-
-  #include "SalvCav\Sword Installer.event"
