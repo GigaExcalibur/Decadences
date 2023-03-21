@@ -1,0 +1,6 @@
+#define VulneraryHealAmount 14
+
+PUSH
+ORG $2fec6
+BYTE VulneraryHealAmount
+POP

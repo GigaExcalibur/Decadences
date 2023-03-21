@@ -35,3 +35,8 @@ Saint - Greentea, RobertFPY
 Squire - Dutch Introvert
 Juggernaut - SALVAGED, BoneManSeth
 Conjurer - Velvet Kitsune, Author_Pendragon
+
+# ASM
+Stat Screen Blink - Stan
+Magic and Melee Fix - Hextator, Tequila, 7743
+Same Level Promotion - 7743
