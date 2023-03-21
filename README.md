@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Monday, 3-20
+- Inserted map sprites
+- Wrote and assigned most personal data
+- Began inserting animations
+
 ## Sunday, 3-19
 - Made class names exclusive
 - Set initial character and class details in tables
