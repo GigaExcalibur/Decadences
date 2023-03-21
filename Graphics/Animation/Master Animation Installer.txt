@@ -65,6 +65,16 @@
 #include "Harrier/Magic Installer.event"
 }
 
+{
+#include "Saint/Staff Installer.event"
+#include "Saint/Magic Installer.event"
+}
+
+{
+#include "Squire/Lance Installer.event"
+#include "Squire/Unarmed Installer.event"
+}
+
 ALIGN 4
 TricksterAnimLabel:
 AddClassAnimation(TricksterBow, Bows, 1)
