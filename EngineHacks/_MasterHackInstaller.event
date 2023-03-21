@@ -55,6 +55,15 @@ POP
 
   //Stat screen blink
   #include "ExternalHacks\StatScreenBlink\SSBlink.event"
+  
+  //Magic and Melee Fix
+  #include "ExternalHacks\MagicAndMeleeFix\Installer.event"
+  
+  //Vulnerary Heal Amount
+  #include "InlineChanges/VulneraryHealAmount.event"
+  
+  //Same level promo
+  #include "InlineChanges/SameLevelPromo.event"
 
   // Display damage numbers in battle animations.
   #include "ExternalHacks/AnimNumbers/AnimNumbers.event"
