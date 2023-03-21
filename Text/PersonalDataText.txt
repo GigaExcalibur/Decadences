@@ -104,10 +104,10 @@ That's private, buddy.[X]
 Playing cards[X]
 
 ## NiravFullName
-Nirav von [X]
+Nirav von Dewan[X]
 
 ## NiravHobby
-Reading escapist fiction[X]
+Escapist fiction[X]
 
 ## ClovisFullName
 Clovis Lucian[X]
@@ -116,31 +116,13 @@ Clovis Lucian[X]
 Paper plays[X]
 
 ## EmersonFullName
-Emerson[X]
+Emerson [X]
 
 ## EmersonHobby
-I don't have time for that.[X]
+No time for that.[X]
 
 ## SolineFullName
 Soline Charafei[X]
 
 ## SolineHobby
 Glassmaking (hourglasses)[X]
-
-## EirikaLike1ID
-pi[0xF1]a coladas[X]
-
-## EirikaLike2ID
-[0x87][0x85]tti[0x8B][0x87] [0x83][0x81][0x96][0x87][0x88]t i[0x8B] t[0x88][0x85] [0x8F][0x81]i[0x8B][X]
-
-## EirikaDislike1ID
-health food[X]
-
-## EirikaDislike2ID
-yoga[X]
-
-## EirikaAgeID
-1337[X]
-
-## EirikaHeightID
-420cm[X]
