@@ -1,0 +1,8 @@
+PUSH
+ORG 0x95DFA4 + (Squire*2) // ORG directly to the Squire class id's entry of the promotion table
+BYTE Juggernaut 0 // Change it so Squires promote into Juggernauts
+POP
+
+ALIGN 4
+KnightCrestPromoTable:
+BYTE Squire 0
