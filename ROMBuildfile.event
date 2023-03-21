@@ -18,6 +18,8 @@
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
+	
+	ORG 0xEFB2E0 // After rest of ROM data
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
@@ -32,7 +34,7 @@
     #include "Maps/MasterMapInstaller.event"
     #endif // USE_TEST_MAP
 	
-	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
+	// ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	
     MESSAGE Used free space ends at currentOffset
 #else

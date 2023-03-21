@@ -13,8 +13,8 @@
 #define animAxe 2
 #define animBow 3
 #define animStaff 4
-#define animAnima 5
-#define animLight 6
+#define animTome 5
+#define animKnife 6
 #define animDark 7
 #define animNone 9
 #define weaponTypeAnim(weaponType, ID) "BYTE weaponType 1 ID 0;"
@@ -23,3 +23,120 @@
 #define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
 
 //////////////Installed animations go here:
+{
+#include "Trickster/Bow Installer.event"
+#include "Trickster/Staff Installer.event"
+#include "Trickster/Unarmed Installer.event"
+}
+
+{
+#include "Spellstrider/Knife Installer.event"
+#include "Spellstrider/Magic Installer.event"
+#include "Spellstrider/Staff Installer.event"
+}
+
+{
+#include "Whisper/Knife Installer.event"
+#include "Whisper/Unarmed Installer.event"
+}
+
+{
+#include "Veteran/Sword Installer.event"
+#include "Veteran/Axe Installer.event"
+#include "Veteran/Handaxe Installer.event"
+#include "Veteran/Unarmed Installer.event"
+}
+
+{
+#include "Varangian/Axe Installer.event"
+#include "Varangian/Handaxe Installer.event"
+#include "Varangian/Bow Installer.event"
+#include "Varangian/Unarmed Installer.event"
+}
+
+{
+#include "Skirmisher/Lance Installer.event"
+#include "Skirmisher/Bow Installer.event"
+#include "Skirmisher/Unarmed Installer.event"
+}
+
+{
+#include "Harrier/Lance Installer.event"
+#include "Harrier/Magic Installer.event"
+}
+
+ALIGN 4
+TricksterAnimLabel:
+AddClassAnimation(TricksterBow, Bows, 1)
+AddClassAnimation(TricksterStaff, Staves, 1)
+AddClassAnimation(TricksterDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SpellstriderAnimLabel:
+AddClassAnimation(SpellstriderKnife, Knives, 1)
+AddClassAnimation(SpellstriderStaff, Staves, 1)
+AddMagicAnimation(SpellstriderTome)
+EndClassAnimation
+
+ALIGN 4
+WhisperAnimLabel:
+AddClassAnimation(WhisperSword, Swords, 1)
+AddClassAnimation(WhisperSword, Knives, 1)
+AddClassAnimation(WhisperDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+VeteranAnimLabel:
+AddClassAnimation(VeteranSword, Swords, 1)
+AddClassAnimation(VeteranAxe, Axes, 1)
+AddHandAxeAnimation(VeteranHandAxe)
+AddClassAnimation(VeteranDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+VarangianAnimLabel:
+AddClassAnimation(VarangianAxe, Axes, 1)
+AddHandAxeAnimation(VarangianHandAxe)
+AddClassAnimation(VarangianBow, Bows, 1)
+AddClassAnimation(VarangianDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SkirmisherAnimLabel:
+AddClassAnimation(SkirmisherLance, Lances, 1)
+AddClassAnimation(SkirmisherBow, Bows, 1)
+AddClassAnimation(SkirmisherDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+HarrierAnimLabel:
+AddClassAnimation(HarrierLance, Lances, 1)
+AddMagicAnimation(HarrierTome)
+EndClassAnimation
+
+ALIGN 4
+SaintAnimLabel:
+AddClassAnimation(SaintStaff, Staves, 1)
+AddMagicAnimation(SaintTome)
+EndClassAnimation
+
+ALIGN 4
+SquireAnimLabel:
+AddClassAnimation(SquireLance, Lances, 1)
+AddClassAnimation(SquireDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+JuggernautAnimLabel:
+AddClassAnimation(JuggernautSword, Swords, 1)
+AddClassAnimation(JuggernautLance, Lances, 1)
+AddClassAnimation(JuggernautAxe, Axes, 1)
+AddHandAxeAnimation(JuggernautHandAxe)
+AddClassAnimation(JuggernautDisarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ConjurerAnimLabel:
+AddMagicAnimation(ConjurerTome)
+EndClassAnimation
