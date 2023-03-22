@@ -4,6 +4,15 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Tuesday, 3-21
+- Finished battle animations
+- Added melee/magic fix
+- Made Squire promote into Juggernaut
+- Inline changes (Vulnerary heal amount, same level promo)
+- Made Laurette functional as a dancing summon
+- Added various quality of life skips
+- Local hacker attempts MSS for the first time: 5 dead, 12 injured
+
 ## Monday, 3-20
 - Inserted map sprites
 - Wrote and assigned most personal data
