@@ -110,6 +110,9 @@ POP
   //Modular Stat Screen
   #include "Necessary/ModularStatScreen/ModularStatScreen.event"
   
+  //Change Rng to AS in MSS
+  #include "Necessary\ModularStatScreen\StatScreenRng2AS\StatScreenRng2AS.event"
+  
   // Strength/Magic Split
   #ifdef USE_STRMAG_SPLIT
   

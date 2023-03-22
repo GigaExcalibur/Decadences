@@ -42,3 +42,4 @@ Stat Screen Blink - Stan
 Magic and Melee Fix - Hextator, Tequila, 7743
 Same Level Promotion - 7743
 Phantom Customizability - Pikmin
+Display skill names - Pawkkie

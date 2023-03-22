@@ -1,21 +1,6 @@
-.thumb
-.include "mss_defs.s"
-
-.global MSS_page3
-.type MSS_page3, %function
-
-
-MSS_page3:
-
-page_start
-
-draw_weapon_rank_at 1, 1, Sword, 0
-draw_weapon_rank_at 1, 3, Lance, 1
-draw_weapon_rank_at 1, 5, Axe, 2
-draw_weapon_rank_at 1, 7, Staff, 3
-draw_weapon_rank_at 1, 9, Bow, 4
-draw_weapon_rank_at 1, 11, Tome, 5
-draw_weapon_rank_at 1, 13, Knife, 6
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Default MSS formatting of skill icons (the positions are different but the format is the same)
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ldr r0,=SkillsTextIDLink
 ldrh r0, [r0]
@@ -107,5 +92,5 @@ beq SkillNameEnd
 draw_skill_name_at 23, 15, colour=White 
 
 SkillNameEnd:
-
 page_end
+

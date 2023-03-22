@@ -84,6 +84,13 @@
 .equ Const_2003D2C, 0x2003D2C
 .equ Const_200472C, 0x200472C
 
+.include "as_instead_of_rng.s"
+.include "draw_skill_name_at.s"
+
+@DedadencesChanges
+.equ Tome, Anima
+.equ Knife, Light
+
 @With this in mind, any unlabeled RAM addresses beginning with 0x200 can reasonably be assumed to be offsets within the tilemap
 
 @Colours
