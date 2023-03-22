@@ -74,19 +74,19 @@ Darina von [X]
 Stargazing[X]
 
 ## EugeniaFullName
-Eugenia .[X]
+Eugenia Salvia Lentz[X]
 
 ## EugeniaHobby
 Gardening[X]
 
 ## CalvinFullName
-Calvin [X]
+Calvin Hassian[X]
 
 ## CalvinHobby
 Flirting[X]
 
 ## AleynaFullName
-Aleyna [X]
+Aleyna Platt[X]
 
 ## AleynaHobby
 Fishing[X]
@@ -116,7 +116,7 @@ Clovis Lucian[X]
 Paper plays[X]
 
 ## EmersonFullName
-Emerson [X]
+????? Emerson.[X]
 
 ## EmersonHobby
 No time for that.[X]
@@ -125,4 +125,4 @@ No time for that.[X]
 Soline Charafei[X]
 
 ## SolineHobby
-Glassmaking (hourglasses)[X]
+Making hourglasses[X]

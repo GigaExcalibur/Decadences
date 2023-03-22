@@ -7,6 +7,31 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
-#0x3A LearnedSkillText
-//first text ID in the free block
+# 0x3A LearnedSkillText
 Learned  [X]
+
+# 0x04FE
+Atk[.][X]
+
+# 0x04FF
+Atk[.][X]
+
+# 0x050A
+Tome[.][X]
+
+# 0x050B
+Knife[.][X]
+
+# 0x0546
+The sum of a unit's physical[N]
+and magical capabilities.[X]
+
+# 0x0547
+The sum of a unit's physical[N]
+and magical capabilities.[X]
+
+# 0x0565
+Tome mastery level.[X]
+
+# 0x0566
+Knife mastery level.[X]

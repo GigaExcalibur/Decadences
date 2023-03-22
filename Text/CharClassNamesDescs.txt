@@ -37,7 +37,7 @@ Indecisive to the point of ignobility.[X]
 
 ## EugeniaDesc
 Envoy from the elite _____.[N]
-Fiercely loyal to Darina.[X]
+Inseperable from Darina's side.[X]
 
 ## CalvinDesc
 Spy in the employ of House ______.[N]
@@ -120,28 +120,28 @@ Affluent knife and magic user[N]
 taught by higher education.[X]
 
 ## WhisperDesc
-Invisible whispers on the field[N]
-who vanish as soon as they come.[X]
+Rogueish ruffians who stalk the[N]
+battlefield, stripping it bare.[X]
 
 ## VeteranDesc
 Highly renowned captain of a[N]
-company of mercenaries.[X]
+reputable band of mercenaries.[X]
 
 ## VarangianDesc
-Combat juggernauts whose physical[N]
-strength is wholly unmatched.[X]
+Royal viking bodyguards whose[N]
+physical strength is unmatched.[X]
 
 ## SkirmisherDesc
-Crafty horsemen who rain down[N]
-hell on foes from afar.[X]
+Crafty horsemen able to dash in[N]
+and out of combat with ease.[X]
 
 ## HarrierDesc
 Magic-wielding flier who hits like[N]
 a cannon, but shatters like glass.[X]
 
 ## SaintDesc
-Holy men who grant salvation with[N]
-the power of healing staves.[X]
+Holy men divinely chosen for sainthood[N]
+through their virtuous deeds.[X]
 
 ## SquireDesc
 Young soldier with immense potential.[N]
