@@ -8,6 +8,7 @@
 #define Clovis 0x8
 #define Emerson 0x9
 #define Soline 0xA
+#define Laurette 0x3F
 
 #define Trickster 0x54
 #define Spellstrider 0x55

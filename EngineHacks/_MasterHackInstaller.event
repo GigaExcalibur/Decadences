@@ -64,6 +64,9 @@ POP
   
   //Same level promo
   #include "InlineChanges/SameLevelPromo.event"
+  
+  //Phantom Customizing
+  #include "ExternalHacks\PhantomCustomizing\Installer.event"
 
   // Display damage numbers in battle animations.
   #include "ExternalHacks/AnimNumbers/AnimNumbers.event"

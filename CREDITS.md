@@ -22,6 +22,7 @@ Saint - Permafrost
 Squire - Dutch Introvert
 Juggernaut - SALVAGED, BoneManSeth
 Conjurer - Unknown
+Puppet - Knabepicer
 
 # Battle animations
 Trickster - Itranc, Nuramon, Leo_Link
@@ -40,3 +41,4 @@ Conjurer - Velvet Kitsune, Author_Pendragon
 Stat Screen Blink - Stan
 Magic and Melee Fix - Hextator, Tequila, 7743
 Same Level Promotion - 7743
+Phantom Customizability - Pikmin

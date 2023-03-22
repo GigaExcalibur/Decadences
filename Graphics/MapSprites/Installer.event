@@ -41,7 +41,7 @@ SetMMS(Whisper-1, Rogue_M_ISwalk_Data, DemonKingAP)
 SetMMS(Conjurer-1, Summoner_F_Unknownwalk_Data, DemonKingAP) 
 SetMMS(Spellstrider-1, Troubadour_F_Thaumaturge_Pikmin_Derwalk_Data, DemonKingAP) 
 SetMMS(Varangian-1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data, DemonKingAP)
-SetMMS(Puppet-1, Bard_F_Elffin_Knabepicerwalk_Data, DemonKingAP) 
+SetMMS(Puppet-1, Bard_F_Elffin_Knabepicerwalk_Data, BardAP) 
 POP 
 //Copy until here 
 

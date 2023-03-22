@@ -28,6 +28,9 @@ Emerson[X]
 ## SolineName
 Soline[X]
 
+## LauretteName
+Laurette?[X]
+
 ## DarinaDesc
 Newly crowned lord of House _____.[N]
 Indecisive to the point of ignobility.[X]
@@ -67,6 +70,10 @@ Training to be like his deceased parents.[X]
 ## SolineDesc
 A mysterious woman concealed by Lord _____.[N]
 Possesses the power to raise the dead.[X]
+
+## LauretteDesc
+The conjured corpse of a young woman.[N]
+Lacks all memories of her prior life.[X]
 
 ## TricksterName
 Trickster[X]
@@ -147,3 +154,7 @@ boast of their growth as a unit.[X]
 ## ConjurerDesc
 Ethereal necromancer who can[N]
 manifest a puppet soldier.[X]
+
+## PuppetDesc
+A phantasmal performer whose spirit[N]
+refreshes the spirits of allies.[X]
