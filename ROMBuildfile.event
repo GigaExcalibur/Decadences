@@ -14,13 +14,15 @@
 	
 	#include "Graphics/Installer.event"
 	MESSAGE Used graphics space ends at currentOffset
+	
+	MESSAGE Jumping to 0xEFB2E0 to avoid animation table
+	
+	ORG 0xEFB2E0 // After rest of ROM data
 
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 	
-	ORG 0xEFB2E0 // After rest of ROM data
-
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
@@ -32,6 +34,7 @@
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
+	MESSAGE Used map/event space ends at currentOffset
     #endif // USE_TEST_MAP
 	
 	// ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace

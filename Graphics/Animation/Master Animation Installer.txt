@@ -75,6 +75,18 @@
 #include "Squire/Unarmed Installer.event"
 }
 
+{
+#include "Juggernaut/Sword Installer.event"
+#include "Juggernaut/Lance Installer.event"
+#include "Juggernaut/Axe Installer.event"
+#include "Juggernaut/HandAxe Installer.event"
+#include "Juggernaut/Unarmed Installer.event"
+}
+
+{
+#include "Conjurer/Magic Installer.event"
+}
+
 ALIGN 4
 TricksterAnimLabel:
 AddClassAnimation(TricksterBow, Bows, 1)
