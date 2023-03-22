@@ -6,31 +6,33 @@
  
 /* 
 //First free SMS is 107
-#define Bishop_M_Hatless_Permafroststand 107 
-#define Custom_Flier_Harrier_F_Ayrstand 108 
-#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand 109 
-#define Knight_M_Lance__SALVAGED_BoneManSethstand 110 
-#define Marksman_F_Nuramonstyle_ArcherBiasstand 111 
-#define Master_Knight_M_Bow_Knight_Bow_bloodstand 112 
-#define Recruit_M_Flagbearer_Dutch_Introvertstand 113 
-#define Rogue_M_ISstand 114 
-#define Summoner_F_16x16_Unknownstand 115 
-#define Troubadour_F_Thaumaturge_Pikmin_Derstand 116 
-#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand 117 
+#define Bard_F_Elffin_Knabepicerstand 107 
+#define Bishop_M_Hatless_Permafroststand 108 
+#define Custom_Flier_Harrier_F_Ayrstand 109 
+#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand 110 
+#define Knight_M_Lance__SALVAGED_BoneManSethstand 111 
+#define Marksman_F_Nuramonstyle_ArcherBiasstand 112 
+#define Master_Knight_M_Bow_Knight_Bow_bloodstand 113 
+#define Recruit_M_Flagbearer_Dutch_Introvertstand 114 
+#define Rogue_M_ISstand 115 
+#define Summoner_F_16x16_Unknownstand 116 
+#define Troubadour_F_Thaumaturge_Pikmin_Derstand 117 
+#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand 118 
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
-#define Bishop_M_Hatless_Permafrostwalk 127 
-#define Custom_Flier_Harrier_F_Ayrwalk 128 
-#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk 129 
-#define Knight_M_Lance__SALVAGED_BoneManSethwalk 130 
-#define Marksman_F_Nuramonstyle_ArcherBiaswalk 131 
-#define Master_Knight_M_Bow_Knight_Bow_bloodwalk 132 
-#define Recruit_M_Flagbearer_Dutch_Introvertwalk 133 
-#define Rogue_M_ISwalk 134 
-#define Summoner_F_Unknownwalk 135 
-#define Troubadour_F_Thaumaturge_Pikmin_Derwalk 136 
-#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk 137 
+#define Bard_F_Elffin_Knabepicerwalk 127 
+#define Bishop_M_Hatless_Permafrostwalk 128 
+#define Custom_Flier_Harrier_F_Ayrwalk 129 
+#define Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk 130 
+#define Knight_M_Lance__SALVAGED_BoneManSethwalk 131 
+#define Marksman_F_Nuramonstyle_ArcherBiaswalk 132 
+#define Master_Knight_M_Bow_Knight_Bow_bloodwalk 133 
+#define Recruit_M_Flagbearer_Dutch_Introvertwalk 134 
+#define Rogue_M_ISwalk 135 
+#define Summoner_F_Unknownwalk 136 
+#define Troubadour_F_Thaumaturge_Pikmin_Derwalk 137 
+#define Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk 138 
  
 */ 
  
@@ -40,6 +42,7 @@
 //Copy from here 
 PUSH 
  
+SetSMS(Bard_F_Elffin_Knabepicerstand, 1, Bard_F_Elffin_Knabepicerstand_Data) 
 SetSMS(Bishop_M_Hatless_Permafroststand, 1, Bishop_M_Hatless_Permafroststand_Data) 
 SetSMS(Custom_Flier_Harrier_F_Ayrstand, 1, Custom_Flier_Harrier_F_Ayrstand_Data) 
 SetSMS(Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand, 1, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallstand_Data) 
@@ -53,6 +56,7 @@ SetSMS(Troubadour_F_Thaumaturge_Pikmin_Derstand, 1, Troubadour_F_Thaumaturge_Pik
 SetSMS(Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand, 1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data) 
  
  
+SetMMS(Bard_F_Elffin_Knabepicerwalk, Bard_F_Elffin_Knabepicerwalk_Data, DemonKingAP) 
 SetMMS(Bishop_M_Hatless_Permafrostwalk, Bishop_M_Hatless_Permafrostwalk_Data, DemonKingAP) 
 SetMMS(Custom_Flier_Harrier_F_Ayrwalk, Custom_Flier_Harrier_F_Ayrwalk_Data, DemonKingAP) 
 SetMMS(Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk, Hero_F_Brown_Shield_Sword_Pikmin_Pushwallwalk_Data, DemonKingAP) 
@@ -71,6 +75,10 @@ POP
  
  
 //SMS Image Data 
+ 
+ALIGN 4 
+Bard_F_Elffin_Knabepicerstand_Data: 
+#incbin "dmp/Bard_F_Elffin_Knabepicerstand.dmp" 
  
 ALIGN 4 
 Bishop_M_Hatless_Permafroststand_Data: 
@@ -120,6 +128,10 @@ Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data:
  
  
 //MMS Image Data 
+ 
+ALIGN 4 
+Bard_F_Elffin_Knabepicerwalk_Data: 
+#incbin "dmp/Bard_F_Elffin_Knabepicerwalk.dmp" 
  
 ALIGN 4 
 Bishop_M_Hatless_Permafrostwalk_Data: 

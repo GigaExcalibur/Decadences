@@ -1,6 +1,7 @@
 #include "Internals.event"
 #include "GeneratedInstaller.event"
 
+#define PuppetSMS 0x42
 #define TricksterSMS 0x45
 #define SpellstriderSMS 0x46
 #define WhisperSMS 0x47
@@ -25,7 +26,8 @@ SetSMS(SquireSMS, 1, Recruit_M_Flagbearer_Dutch_Introvertstand_Data)
 SetSMS(WhisperSMS, 0, Rogue_M_ISstand_Data) 
 SetSMS(ConjurerSMS, 0, Summoner_F_16x16_Unknownstand_Data) 
 SetSMS(SpellstriderSMS, 1, Troubadour_F_Thaumaturge_Pikmin_Derstand_Data) 
-SetSMS(VarangianSMS, 1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data) 
+SetSMS(VarangianSMS, 1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countstand_Data)
+SetSMS(PuppetSMS, 0, Bard_F_Elffin_Knabepicerstand_Data) 
  
  
 SetMMS(Saint-1, Bishop_M_Hatless_Permafrostwalk_Data, DemonKingAP) 
@@ -38,7 +40,8 @@ SetMMS(Squire-1, Recruit_M_Flagbearer_Dutch_Introvertwalk_Data, DemonKingAP)
 SetMMS(Whisper-1, Rogue_M_ISwalk_Data, DemonKingAP) 
 SetMMS(Conjurer-1, Summoner_F_Unknownwalk_Data, DemonKingAP) 
 SetMMS(Spellstrider-1, Troubadour_F_Thaumaturge_Pikmin_Derwalk_Data, DemonKingAP) 
-SetMMS(Varangian-1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data, DemonKingAP)  
+SetMMS(Varangian-1, Warrior_M_Tellius_helmet_Rasdel_Jey_the_Countwalk_Data, DemonKingAP)
+SetMMS(Puppet-1, Bard_F_Elffin_Knabepicerwalk_Data, DemonKingAP) 
 POP 
 //Copy until here 
 
