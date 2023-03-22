@@ -65,6 +65,9 @@ POP
   //Same level promo
   #include "InlineChanges/SameLevelPromo.event"
   
+  //Various Intro Skips
+  #include "InlineChanges/IntroSkips.event"
+  
   //Phantom Customizing
   #include "ExternalHacks\PhantomCustomizing\Installer.event"
 
