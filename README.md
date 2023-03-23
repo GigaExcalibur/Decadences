@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Wednesday, 3-22
+- Spent the entire day playing around with MSS
+- Began work on title screen text
+- Put off mapping as much as humanly possible
+
 ## Tuesday, 3-21
 - Finished battle animations
 - Added melee/magic fix
