@@ -1,0 +1,15 @@
+PUSH
+ORG $C5830
+POIN TitleScreenTextImage
+
+ORG $C62B4
+POIN TitleScreenTextPalette
+POP
+
+ALIGN 4
+TitleScreenTextImage:
+#incbin "TitleScreen.dmp"
+
+ALIGN 4
+TitleScreenTextPalette:
+#incbin "TitleScreenPalette.dmp"
