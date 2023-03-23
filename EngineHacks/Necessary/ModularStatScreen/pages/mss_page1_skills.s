@@ -128,10 +128,48 @@ ShowStats2: @things in this section are only drawn when not in growths mode
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
   ldrb    r0, [r0, #0x4]
-
+  
+  draw_textID_at 14, 13, 0x0558, 3 @ Power
+  draw_textID_at 14, 15, 0x04F4, 3 @ HitText
+  draw_textID_at 14, 17, 0x0501, 4 @ Crit
+  draw_textID_at 21, 13, 0x0504, 3 @ Attack speed
+  draw_textID_at 21, 15, 0x04F5, 3 @ Avo
+  draw_textID_at 21, 17, 0x567, 4 @ Crit Avo
+  
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
-  mov     r0, r6
+  
+  @Power
+  mov     r0, #0x5A
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
+  
+  @Hit
+  mov     r0, #0x60
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 15
+  
+  @Crit
+  mov     r0, #0x66
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 17
+  
+  @AS
+  mov     r0, #0x5E
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 13
+  
+  @Avo
+  mov     r0, #0x62
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 15
+  
+  @Crit Avo
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 17
+  
+  /* mov     r0, r6
   add     r0, #0x5A         @load battle atk
   mov     r1, #0x0
   ldsh    r2, [r0, r1]
@@ -161,26 +199,7 @@ ShowStats2: @things in this section are only drawn when not in growths mode
   ldsh    r2, [r0, r6]
   mov     r0, r4
   mov     r1, #0x2
-  blh     DrawDecNumber
-  ldr     r6, =gActiveBattleUnit
-  mov     r0, #0x68
-  ldsh    r0, [r6, r0]
-  draw_number_at 20, 13
-  draw_textID_at 14, 13, 0x567, width=4 @Crit avoid
-  get_attack_speed
-  draw_number_at 27, 13
-
-  @i think this loop just clears a gfx buffer
-  /* loc_0x8087660:
-  add     r0, r4, r5
-  strh    r0, [r2]
-  add     r0, r4, r3
-  strh    r0, [r1]
-  add     r2, #0x2
-  add     r1, #0x2
-  add     r4, #0x1
-  cmp     r4, #0x7
-  ble     loc_0x8087660 */
+  blh     DrawDecNumber */
 
 draw_str_bar_at 16, 3
 draw_skl_bar_at 16, 5

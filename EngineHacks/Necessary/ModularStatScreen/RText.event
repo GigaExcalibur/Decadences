@@ -93,22 +93,22 @@
     RMenu(ST_Mov, ST_AS, ST_Def, 0, 0xA6, 0x58, SS_TalkRText)
 	
   ST_CAvo:
-	RMenu(ST_Def, ST_Pow, ST_Class, ST_AS, 0x6A, 0x68, CAvoRText)
+	RMenu(ST_Def, ST_Pow, ST_Class, ST_AS, 0x72, 0x68, 0x55C) // 0x055C
 	
   ST_Pow:
-	RMenu(ST_CAvo, ST_Hit, ST_Exp, ST_Crit, 0x6A, 0x78, 0x055C)
+	RMenu(ST_CAvo, ST_Hit, ST_Exp, ST_Crit, 0x72, 0x78, 0x55D) // 0x55D
 	
   ST_Hit:
-	RMenu(0, ST_Pow, ST_HP, ST_Avo, 0x6A, 0x88, 0x55D)
+	RMenu(ST_Pow, 0, ST_HP, ST_Avo, 0x72, 0x88, 0x55F) // 0x055F
 	
   ST_AS:
-	RMenu(ST_Talk, ST_Crit, ST_CAvo, 0, 0xbA, 0x68, 0x0572)
+	RMenu(ST_Talk, ST_Crit, ST_CAvo, 0, 0xAA, 0x68, 0x572) // 0x0572
 	
   ST_Crit:
-	RMenu(ST_AS, ST_Avo, ST_Pow, 0, 0xBA, 0x78, 0x055F)
+	RMenu(ST_AS, ST_Avo, ST_Pow, 0, 0xAA, 0x78, 0x560) // 0x560
 
   ST_Avo:
-	RMenu(ST_Crit, 0, ST_Hit, 0, 0xBA, 0x88, 0x0560)
+	RMenu(ST_Crit, 0, ST_Hit, 0, 0xAA, 0x88, CAvoRText) // CAvoRText
 
  /* ST_Skills:
     RMenu(ST_Talk,ST_Skill1,ST_Res,0,0xA6,0x68,SS_SkillsRText)

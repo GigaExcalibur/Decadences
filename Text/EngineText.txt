@@ -40,23 +40,23 @@ Tome mastery level.[X]
 Knife mastery level.[X]
 
 # 0x0558 PowText
-Pow[X]
+  Pow[X]
   
 # 0x04F4 HitText
-Hit[X]
+  Hit[X]
   
 # 0x0501 CritText
-Crit[X]
+  Crit[X]
 
 # 0x0504 ASText
-AS[X]
+  AS[X]
   
 # 0x04F5 AvoText
-Avo[X]
+  Avo[X]
   
 # 0x567 CAvoText
   C.Avo[X]
 
 # 0x050C CAvoRText
-The amount of enemy critical[N]
-hit rate is offset by.[X]
+The amount you reduce an[N]
+enemy's critical hit rate[X]
