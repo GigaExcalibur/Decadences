@@ -14,6 +14,4 @@ draw_stats_box
 
 draw_items_text
 
-as_instead_of_rng
-
 page_end

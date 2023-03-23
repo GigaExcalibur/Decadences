@@ -91,62 +91,6 @@ ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
 draw_talk_text_at 21, 11
 
-b startSkills
-
-.ltorg
-.align
-
-startSkills:
-
-.set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
-
-ldr r0,=SkillsTextIDLink
-ldrh r0, [r0]
-draw_textID_at 21, 13, colour=White @skills
-
-
-mov r0,r8
-ldr r1,=Skill_Getter
-mov r14,r1
-.short 0xF800
-
-mov r6,r0
-ldrb r0,[r6]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 15
-
-ldrb r0,[r6,#1]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 15
-
-ldrb r0,[r6,#2]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 15
-
-ldrb r0,[r6,#3]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 17
-
-ldrb r0,[r6,#4]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 17
-
-ldrb r0,[r6,#5]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 17
-b SkillsEnd
-
-.ltorg
-.align
-
-SkillsEnd:
-
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15
 
@@ -203,5 +147,5 @@ bx		r14
 
 .ltorg
 
-.include "GetTalkee.asm"
+.include "GetTalkee.s"
 

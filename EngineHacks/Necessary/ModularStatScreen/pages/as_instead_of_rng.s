@@ -5,5 +5,4 @@
   draw_textID_at 26, 13, 0x0001 @" "
   get_attack_speed
   draw_number_at 27, 13
-  get_
 .endm

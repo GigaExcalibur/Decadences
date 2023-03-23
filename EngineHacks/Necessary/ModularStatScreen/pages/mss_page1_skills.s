@@ -44,7 +44,7 @@ draw_textID_at 13, 5, textID=0x4EC, growth_func=3 @skl
 draw_textID_at 13, 7, textID=0x4ED, growth_func=4 @spd
 draw_textID_at 13, 9, textID=0x4ee, growth_func=5 @luck
 draw_textID_at 13, 11, textID=0x4ef, growth_func=6 @def
-draw_textID_at 13, 13, textID=0x4f0, growth_func=7 @res
+draw_textID_at 21, 3, textID=0x4f0, growth_func=7 @res
 
 b 	LiteralJump1
 .ltorg 
@@ -73,7 +73,6 @@ b ShowStats2
 
 .ltorg
 .align
-
 ShowGrowths: @things in this section are only drawn when in growths mode
 
 ldr		r0,[sp,#0xC]
@@ -104,16 +103,94 @@ b		literalJump2
 
 ShowStats2: @things in this section are only drawn when not in growths mode
 
+@draw_stats_box
+
+  ldr     r0, =SSS_Flag
+  ldr     r0, [r0]
+  cmp     r0, #0x0
+  beq     DefaultBox
+    ldr     r0, =SSS_StatsBoxTSA
+    b       DecompressBoxTSA
+  DefaultBox:
+    ldr     r0, =#0x8A02204   @box TSA
+  DecompressBoxTSA:
+  ldr     r4, =gGenericBuffer
+  mov     r1, r4
+  blh     Decompress
+  ldr     r0, =#0x20049EE     @somewhere on the bgmap
+  mov     r2, #0xC1
+  lsl     r2, r2, #0x6
+  mov     r1, r4
+  blh     BgMap_ApplyTsa
+  ldr     r0, =#0x8205A24     @map of text labels and positions
+  blh     DrawStatscreenTextMap
+  ldr     r6, =StatScreenStruct
+  ldr     r0, [r6, #0xC]
+  ldr     r0, [r0, #0x4]
+  ldrb    r0, [r0, #0x4]
+
+  ldr     r4, =#0x200407C     @bgmap offset
+  ldr     r6, =gActiveBattleUnit
+  mov     r0, r6
+  add     r0, #0x5A         @load battle atk
+  mov     r1, #0x0
+  ldsh    r2, [r0, r1]
+  mov     r0, r4
+  mov     r1, #0x2
+  blh     DrawDecNumber
+  mov     r0, r4
+  add     r0, #0x80
+  mov     r1, r6
+  add     r1, #0x60         @load battle hit
+  mov     r3, #0x0
+  ldsh    r2, [r1, r3]
+  mov     r1, #0x2
+  blh     DrawDecNumber
+  mov     r0, r4
+  add     r0, #0xE
+  mov     r1, r6
+  add     r1, #0x66         @load battle crit
+  mov     r3, #0x0
+  ldsh    r2, [r1, r3]
+  mov     r1, #0x2
+  blh     DrawDecNumber
+  add     r4, #0x8E
+  mov     r0, r6
+  add     r0, #0x62         @load battle avoid
+  mov     r6, #0x0
+  ldsh    r2, [r0, r6]
+  mov     r0, r4
+  mov     r1, #0x2
+  blh     DrawDecNumber
+  ldr     r6, =gActiveBattleUnit
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
+  draw_textID_at 14, 13, 0x567, width=4 @Crit avoid
+  get_attack_speed
+  draw_number_at 27, 13
+
+  @i think this loop just clears a gfx buffer
+  /* loc_0x8087660:
+  add     r0, r4, r5
+  strh    r0, [r2]
+  add     r0, r4, r3
+  strh    r0, [r1]
+  add     r2, #0x2
+  add     r1, #0x2
+  add     r4, #0x1
+  cmp     r4, #0x7
+  ble     loc_0x8087660 */
 
 draw_str_bar_at 16, 3
 draw_skl_bar_at 16, 5
 draw_spd_bar_at 16, 7
 draw_luck_bar_at 16, 9
 draw_def_bar_at 16, 11
-draw_res_bar_at 16, 13
 
-draw_textID_at 13, 15, 0x4f6 @move
-draw_move_bar_with_getter_at 16, 15
+draw_textID_at 21, 9, 0x4f6 @move
+draw_move_bar_with_getter_at 24, 9
+@draw_move_bar_with_getter_at 16, 15
 
 b literalJump2
 
@@ -122,21 +199,20 @@ b literalJump2
 
 literalJump2:
 
+draw_res_bar_at 24, 3
+draw_con_bar_with_getter_at 24, 5
+draw_textID_at 21, 5, textID=0x4f7 @con
 
+draw_textID_at 21, 7, textID=0x4f8 @aid
+draw_number_at 25, 7, 0x80189B8, 2 @aid getter
+draw_aid_icon_at 26, 7
 
-draw_textID_at 13, 17, textID=0x4f7 @con
-draw_con_bar_with_getter_at 16, 17
+@ draw_trv_text_at 21, 5
 
-draw_textID_at 21, 3, textID=0x4f8 @aid
-draw_number_at 25, 3, 0x80189B8, 2 @aid getter
-draw_aid_icon_at 26, 3
+@draw_textID_at 21, 7, textID=0x4f1 @affin
+@draw_affinity_icon_at 24, 7
 
-draw_trv_text_at 21, 5
-
-draw_textID_at 21, 7, textID=0x4f1 @affin
-draw_affinity_icon_at 24, 7
-
-draw_status_text_at 21, 9
+@ draw_status_text_at 21, 9
 
 b exitVanillaStatStuff
 
@@ -148,62 +224,6 @@ exitVanillaStatStuff:
 ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
 draw_talk_text_at 21, 11
-
-b startSkills
-
-.ltorg
-.align
-
-startSkills:
-
-.set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
-
-ldr r0,=SkillsTextIDLink
-ldrh r0, [r0]
-draw_textID_at 21, 13, colour=White @skills
-
-
-mov r0,r8
-ldr r1,=Skill_Getter
-mov r14,r1
-.short 0xF800
-
-mov r6,r0
-ldrb r0,[r6]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 15
-
-ldrb r0,[r6,#1]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 15
-
-ldrb r0,[r6,#2]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 15
-
-ldrb r0,[r6,#3]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 17
-
-ldrb r0,[r6,#4]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 17
-
-ldrb r0,[r6,#5]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 17
-b SkillsEnd
-
-.ltorg
-.align
-
-SkillsEnd:
 
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15
@@ -261,5 +281,5 @@ bx		r14
 
 .ltorg
 
-.include "GetTalkee.asm"
+.include "GetTalkee.s"
 

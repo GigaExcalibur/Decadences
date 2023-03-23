@@ -832,10 +832,6 @@
   ldr     r0, [r0, #0xC]
   ldr     r0, [r0, #0x4]
   ldrb    r0, [r0, #0x4]
-  cmp     r0, #Deny_Statscreen_Class_Hi
-  beq     SS_DrawItemBox_Unarmed
-  cmp     r0, #Deny_Statscreen_Class_Lo
-  beq     SS_DrawItemBox_Unarmed
   
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
@@ -870,59 +866,16 @@
   mov     r0, r4
   mov     r1, #0x2
   blh     DrawDecNumber
-  b       SS_DrawItemBox_RangeText
-  
-  SS_DrawItemBox_Unarmed:
-  ldr     r4, =#0x200407C
-  mov     r0, r4
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0x80
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0xE
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  add     r4, #0x8E
-  ldr     r0, =gActiveBattleUnit
-  add     r0, #0x62         @load battle avoid
-  mov     r1, #0x0
-  ldsh    r2, [r0, r1]
-  mov     r0, r4
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  mov     r5, #0x0            @set item as blank
-  
-  SS_DrawItemBox_RangeText:
-  mov     r0, r5
-  blh     GetItemRangeString
-  mov     r5, r0
-  ldr     r4, =#0x2003CB4
-  blh     Text_GetStringTextWidth
-  mov     r1, #0x37
-  sub     r1, r1, r0
-  mov     r0, r4
-  mov     r2, #0x2
-  mov     r3, r5
-  blh     Text_InsertString, r4
-  mov     r4, #0x0
-  ldr     r0, =gpStatScreenPageBg0Map
-  ldr     r3, =#0x7060
-  mov     r5, r3
-  ldr     r6, =#0x2C2
-  add     r2, r0, r6
-  ldr     r1, =#0x7068
-  mov     r3, r1
-  add     r6, #0x40
-  add     r1, r0, r6
-  
+  ldr     r6, =gActiveBattleUnit
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
+  draw_textID_at 14, 13, 0x567, width=4 @Crit avoid
+  get_attack_speed
+  draw_number_at 27, 13
+    
   @i think this loop just clears a gfx buffer
-  loc_0x8087660:
+  /* loc_0x8087660:
   add     r0, r4, r5
   strh    r0, [r2]
   add     r0, r4, r3
@@ -931,7 +884,7 @@
   add     r1, #0x2
   add     r4, #0x1
   cmp     r4, #0x7
-  ble     loc_0x8087660
+  ble     loc_0x8087660 */
   
 .endm
 
