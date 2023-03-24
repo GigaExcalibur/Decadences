@@ -1,0 +1,17 @@
+ALIGN 4
+CastleObject:
+#incbin "Improved Castle Object_Palette 3.dmp"
+
+ALIGN 4
+CastleTiles:
+#incbin "CastleConfig.dmp"
+
+ALIGN 4
+CastlePalette:
+#incbin "CastlePalette.dmp"
+
+EventPointerTable(0x8b, CastleObject)
+EventPointerTable(0x8c, CastlePalette)
+EventPointerTable(0x8d, CastleTiles)
+
+#include "MapAnimations/AnimationInstaller.event"

@@ -23,3 +23,17 @@
  */
 
 // Villain mugs go after 0x15
+
+// Map sprites
+#define PuppetSMS 0x42
+#define TricksterSMS 0x45
+#define SpellstriderSMS 0x46
+#define WhisperSMS 0x47
+#define VeteranSMS 0x48
+#define VarangianSMS 0x49
+#define SkirmisherSMS 0x4A
+#define HarrierSMS 0x4B
+#define SaintSMS 0x4C
+#define SquireSMS 0x4D
+#define JuggernautSMS 0x4E
+#define ConjurerSMS 0x4F

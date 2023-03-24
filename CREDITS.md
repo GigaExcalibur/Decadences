@@ -37,6 +37,9 @@ Squire - Dutch Introvert
 Juggernaut - SALVAGED, BoneManSeth
 Conjurer - Velvet Kitsune, Author_Pendragon
 
+# Misc. Aesthetics
+Improved Castle Tileset - N426
+
 # ASM
 Stat Screen Blink - Stan
 Magic and Melee Fix - Hextator, Tequila, 7743

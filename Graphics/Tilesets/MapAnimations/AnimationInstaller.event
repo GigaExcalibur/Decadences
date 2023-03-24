@@ -1,0 +1,49 @@
+EventPointerTable(0xcb, CastleAnimation)
+
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+Frame0:
+#incbin "Frame0.dmp"
+
+ALIGN 4
+Frame1:
+#incbin "Frame1.dmp"
+
+ALIGN 4
+Frame2:
+#incbin "Frame2.dmp"
+
+ALIGN 4
+Frame3:
+#incbin "Frame3.dmp"
+
+ALIGN 4
+Frame4:
+#incbin "Frame4.dmp"
+
+ALIGN 4
+Frame5:
+#incbin "Frame5.dmp"
+
+ALIGN 4
+Frame6:
+#incbin "Frame6.dmp"
+
+ALIGN 4
+Frame7:
+#incbin "Frame7.dmp"
+
+ALIGN 4
+CastleAnimation:
+tilesetAnimation(0x1C,0x1000,Frame0)
+tilesetAnimation(0x1C,0x1000,Frame1)
+tilesetAnimation(0x1C,0x1000,Frame2)
+tilesetAnimation(0x1C,0x1000,Frame3)
+tilesetAnimation(0x1C,0x1000,Frame4)
+tilesetAnimation(0x1C,0x1000,Frame5)
+tilesetAnimation(0x1C,0x1000,Frame6)
+tilesetAnimation(0x1C,0x1000,Frame7)
+WORD 0 0
