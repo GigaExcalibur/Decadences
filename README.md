@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Thursday, 3-23
+- Inserted title screen text
+- Inserted improved castle tileset
+- Began work on mapping
+
 ## Wednesday, 3-22
 - Spent the entire day playing around with MSS
 - Began work on title screen text
