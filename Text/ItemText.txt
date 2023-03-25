@@ -1,0 +1,53 @@
+## GreatbowName
+Greatbow[X]
+
+## GreatbowDesc
+[LockIcon]Darina. Extended attack range.[X]
+
+## RefrainName
+Refrain[X]
+
+## RefrainDesc
+[LockIcon]Eugenia. Pushes foe back after combat.[X]
+
+## InfiltraitorName
+Infiltraitor[X]
+
+## InfiltraitorDesc
+[LockIcon]Calvin. Ignores all of foe's defense.[X]
+
+## ResentmentName
+Resentment[X]
+
+## ResentmentDesc
+[LockIcon]Aleyna. Increased critical hit rate.[X]
+
+## BenedictionName
+Benediction[X]
+
+## BenedictionDesc
+[LockIcon]Duncan. Strikes consecutively.[X]
+
+## BewilderingName
+Bewildering[X]
+
+## BewilderingDesc
+[LockIcon]Ekaitz. (31-Luck)% chance to backfire.[X]
+
+## BattleflagName
+Battleflag[X]
+
+## BattleflagDesc
+[LockIcon]Nirav and Emerson. Uncounterable.[X]
+
+## ChosensName
+Chosen's[X]
+
+## ChosensDesc
+[LockIcon]Clovis. Fully heals all allies.[X]
+
+## VoidName
+Void[X]
+
+## VoidDesc
+[LockIcon]Soline. Halves foe HP.[X]

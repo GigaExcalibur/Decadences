@@ -4,6 +4,10 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Friday, 3-24
+- Finished first draft of map
+- Theorycrafted prf weapons
+
 ## Thursday, 3-23
 - Inserted title screen text
 - Inserted improved castle tileset
