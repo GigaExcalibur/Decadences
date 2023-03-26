@@ -4,6 +4,10 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Saturday, 3-25
+- I looked at my buildfile wrong and everything broke.
+- Let's call this a break day, shall we?
+
 ## Friday, 3-24
 - Finished first draft of map
 - Theorycrafted prf weapons
