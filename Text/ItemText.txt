@@ -51,3 +51,31 @@ Void[X]
 
 ## VoidDesc
 [LockIcon]Soline. Halves foe HP.[X]
+
+## RubyStoneName
+Ruby Stone[X]
+
+## RubyStoneDesc
+A stone that glitters like the dusk.[N]
+One of the keys to Calvin's freedom.[X]
+
+## SapphireStoneName
+Sapphire Stone[X]
+
+## SapphireStoneDesc
+A stone that glitters like the day.[N]
+One of the keys to Calvin's freedom.[X]
+
+## OnyxStoneName
+Emerald Stone[X]
+
+## OnyxStoneDesc
+A stone that glitters like the night.[N]
+One of the keys to Calvin's freedom.[X]
+
+## GoldStoneName
+Gold Stone[X]
+
+## GoldStoneDesc
+A stone that glitters like the dawn.[N]
+One of the keys to Calvin's freedom.[X]

@@ -11,10 +11,6 @@
 
 EventPointerTable(0x7, PointerList)
 
-#ifdef DRAGON_VEINS
-VeinEffect(0, FreezeAllEnemies)
-#endif // DRAGON_VEINS
-
 setText(0x160, NewChName)
 
 ALIGN 4
@@ -39,16 +35,9 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x10,TalkEvent, Eirika, Ephraim)
 END_MAIN
 
 LocationBasedEvents:
-Vendor(ShopItems,2,7)
-Armory(ArmoryItems,10,26)
-Village(0x8,VillageEvent,18,27)
-House(0,HouseEvent,6,24)
-Seize(10,2)
-DurabilityChest(SkillScroll,CelerityID,11,23)
 END_MAIN
 
 MiscBasedEvents:
@@ -68,60 +57,28 @@ Tutorial:
 END_MAIN
 
 PlayableUnits:
-UNIT Darina Trickster Darina Level(14, Ally, 0) [9,24] 0b 0x0 0x0 0x0 [IronBow, SteelBow, Longbow, Heal] [0x0,0x0,0x0,0x0]
-UNIT Eugenia Spellstrider Darina Level(14, Ally, 0)  [7,24] 0b 0x0 0x0 0x0 [Fire, Lightning, Heal, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Calvin Whisper Darina Level(14, Ally, 0)  [11,24] 0b 0x0 0x0 0x0 [IronSword, Lightning, 0x0, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Aleyna Veteran Darina Level(14, Ally, 0)  [8,25] 0b 0x0 0x0 0x0 [IronSword, IronAxe, HandAxe, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Duncan Varangian Darina Level(14, Ally, 0)  [10,25] 0b 0x0 0x0 0x0 [IronAxe, HandAxe, IronBow, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Ekaitz Skirmisher Darina Level(14, Ally, 0) [12,25] 0b 0x0 0x0 0x0 [IronLance, IronBow, 0x0 ,0x0] [0x0,0x0,0x0,0x0]
-UNIT Nirav Harrier Darina Level(14, Ally, 0) [11,26] 0b 0x0 0x0 0x0 [IronLance, Fire, SteelLance, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Clovis Saint Darina Level(14, Ally, 0)  [7,26] 0b 0x0 0x0 0x0 [Fire, Heal, 0x0, 0x0] [0x0,0x0,0x0,0x0]
-UNIT Emerson Squire Darina Level(1, Ally, 0) [9,26] 0b 0x0 0x0 0x0 [IronLance, IronSword, IronAxe, HandAxe] [0x0,0x0,0x0,0x0]
-UNIT Soline Conjurer Darina Level(14, Ally, 0)  [10,27] 0b 0x0 0x0 0x0 [Fire, KnightCrest, 0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [IronBow, SteelBow, Longbow, Heal] [0x0,0x0,0x0,0x0]
+UNIT Eugenia Spellstrider Darina Level(14, Ally, 0)  [14,2] 0b 0x0 0x0 0x0 [Fire, Lightning, Heal, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Calvin Whisper Darina Level(14, Ally, 0)  [9,6] 0b 0x0 0x0 0x0 [IronSword, Lightning, 0x0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Aleyna Veteran Darina Level(14, Ally, 0)  [2,4] 0b 0x0 0x0 0x0 [IronSword, IronAxe, HandAxe, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Duncan Varangian Darina Level(14, Ally, 0)  [16,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe, IronBow, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Ekaitz Skirmisher Darina Level(14, Ally, 0) [1,4] 0b 0x0 0x0 0x0 [IronLance, IronBow, 0x0 ,0x0] [0x0,0x0,0x0,0x0]
+UNIT Nirav Harrier Darina Level(14, Ally, 0) [7,3] 0b 0x0 0x0 0x0 [IronLance, Fire, SteelLance, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Clovis Saint Darina Level(14, Ally, 0)  [6,6] 0b 0x0 0x0 0x0 [Fire, Heal, 0x0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Emerson Squire Darina Level(1, Ally, 0) [5,8] 0b 0x0 0x0 0x0 [IronLance, IronSword, IronAxe, HandAxe] [0x0,0x0,0x0,0x0]
+UNIT Soline Conjurer Darina Level(14, Ally, 0)  [1,1] 0b 0x0 0x0 0x0 [Fire, KnightCrest, 0, 0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
-EnemyUnits:
-UNIT Morva_Ch20 0x3B 0x40 0xA5    [15,2] 0b 0x0 0x0 0x0 [WretchedAir,0x0,0x0,0x0] AttackInRangeAI
-UNIT ONeill Fighter 0x40 0xA5     [8,19] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Breguet Knight 0x40 0xA5     [5,18] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Bone Brigand 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Bazba Brigand 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Saar Knight 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Novala Shaman 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
-UNIT Murray Cavalier 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
-UNIT Tirado General 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
-UNIT Binks Warrior 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
-UNIT Pablo Sage 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
-UNIT
-
-EnemyUnits2:
-UNIT Vigarde General 0x40 0xA5    [10,2] 0 0 0 0 [Spear, SilverBlade, Tomahawk] NeverMoveAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [9,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [11,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Aias GreatKnight 0x40 0xA5   [7,11] 0 0 0 0 [ShortSpear, SilverBlade, SilverAxe] AttackInRangeAI
-UNIT Carlyle Swordmaster 0x40 0xA5 [10,9] 0 0 0 0 [WindSword] AttackInRangeAI
-UNIT Gheb Warrior 0x40 0xA5       [2,4] 0 0 0 0 [KillerAxe, KillerBow] NeverMoveAI
-UNIT Beran Ranger 0x40 0xA5       [17,14] 0 0 0 0 [Lancereaver, KillerBow, Longbow] AttackInRangeAI
-UNIT
-
-Traps1:
-#ifdef DRAGON_VEINS
-Vein(9,23,0x0,DV1Desc) //freeze enemies
-#endif // DRAGON_VEINS
-ENDTRAP
 ALIGN 4
+Traps1:
+ENDTRAP
 
+ALIGN 4
 Traps2:
 ENDTRAP
-ALIGN 4
 
+ALIGN 4
 BeginningScene:
-ENUT 0x1 //no more boss quotes
-ENUT 0x2 //no more death quotes
-LOAD1 0x1 EnemyUnits
-ENUN
-LOAD1 0x1 EnemyUnits2
-ENUN
 LOAD1 0x0 PlayableUnits //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
 // FADI 10
@@ -136,6 +93,7 @@ ENUN
 // FADU 10
 GotoPrepScreen
 
+ALIGN 4
 EndingScene:
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
@@ -143,50 +101,3 @@ EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
 ENDA
-
-VillageEvent:
-	VillageEventItem(VillageText, Village, Boots)
-
-HouseEvent:
-	// Set parameters
-	SVAL r1 NiceThighsID
-	SVAL r2 (-1) // (-1) is active unit
-	
-	// Check if unit has skill
-	// If they have, goto label #0 (end)
-	ASMC (ASMC_HasSkill|1)
-	BNE 0 rC r0
-	
-	// Learn skill to unit
-	ASMC (ASMC_LearnNewSkill|1)
-	
-LABEL 0
-	// end
-	
-	Text(HouseText)
-	
-	NoFade
-	ENDA
-	
-	// HouseEvent(HouseText, HouseBG)
-
-#ifdef DRAGON_VEINS
-FreezeAllEnemies:
-VeinActivation
-ASMC FreezeAllASMC|1
-NoFade
-ENDA
-#endif // DRAGON_VEINS
-
-TalkEvent:
-Text(0xc0a)
-NoFade
-ENDA
-
-ShopItems:
-SHLI Thunder Elfire Nosferatu Divine Mend Physic PureWater Elixir
-ALIGN 4
-
-ArmoryItems:
-SHLI SteelAxe SteelLance SteelBow SteelSword HandAxe Javelin
-ALIGN 4

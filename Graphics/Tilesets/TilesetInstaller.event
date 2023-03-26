@@ -1,3 +1,8 @@
+#define CastleObjectID 0x1
+#define CastlePaletteID 0x2
+#define CastleTilesID 0x3
+#define CastleAnimationID 0x5
+
 ALIGN 4
 CastleObject:
 #incbin "Improved Castle Object_Palette 3.dmp"
@@ -10,8 +15,8 @@ ALIGN 4
 CastlePalette:
 #incbin "CastlePalette.dmp"
 
-EventPointerTable(0x8b, CastleObject)
-EventPointerTable(0x8c, CastlePalette)
-EventPointerTable(0x8d, CastleTiles)
+EventPointerTable(CastleObjectID, CastleObject)
+EventPointerTable(CastlePaletteID, CastlePalette)
+EventPointerTable(CastleTilesID, CastleTiles)
 
 #include "MapAnimations/AnimationInstaller.event"

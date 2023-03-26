@@ -1,4 +1,4 @@
-EventPointerTable(0xcb, CastleAnimation)
+EventPointerTable(CastleAnimationID, CastleAnimation)
 
 #ifndef tilesetAnimation
     #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
