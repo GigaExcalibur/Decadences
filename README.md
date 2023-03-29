@@ -4,6 +4,13 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Tuesday, 3-28
+- Finally got the map inserted properly!
+- Adjusted preliminary entries of the item table
+
+## Sunday, 3-26 and Monday, 3-27
+- Look, I can explain. ...Okay I can't explain, I was playing Atelier Ryza 3 these two days.
+
 ## Saturday, 3-25
 - I looked at my buildfile wrong and everything broke.
 - Let's call this a break day, shall we?
