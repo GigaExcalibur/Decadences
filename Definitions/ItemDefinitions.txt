@@ -1,0 +1,21 @@
+#define IronDagger 0x3F
+#define SteelDagger 0x40
+#define SilverDagger 0x41
+#define Kard 0x42
+#define Stiletto 0x43
+#define Peshkatz 0x44
+
+#define RubyStone 0x76
+#define SapphireStone 0x77
+#define OnyxStone 0xba
+#define GoldStone 0xbb
+
+#define Chosens 0x8c
+#define Greatbow 0xbd
+#define Refrain 0xbe
+#define Infiltraitor 0xbf
+#define Resentment 0xc0
+#define Benediction 0xc1
+#define Bewildering 0xc2
+#define Battleflag 0xc3
+#define Void 0xc4
