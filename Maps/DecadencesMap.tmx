@@ -8,11 +8,11 @@
    <property name="Anims" value="CastleAnimationID"/>
    <property name="ChapterID" value="0x0"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x6"/>
-   <property name="MapID" value="0x4"/>
+   <property name="MapChangesID" value="Ch1MapChangesID"/>
+   <property name="MapID" value="Ch1MapID"/>
    <property name="ObjectType" value="CastleObjectID"/>
    <property name="PaletteID" value="CastlePaletteID"/>
-   <property name="TileConfig" value="CastleTilesID"/>
+   <property name="TileConfig" value="CastleConfigID"/>
   </properties>
   <data>
    <tile gid="485"/>

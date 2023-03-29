@@ -6,44 +6,44 @@ EventPointerTable(CastleAnimationID, CastleAnimation)
 
 ALIGN 4
 Frame0:
-#incbin "Frame0.dmp"
+#incbin "castle_anims.mapanime 1_000.dmp"
 
 ALIGN 4
 Frame1:
-#incbin "Frame1.dmp"
+#incbin "castle_anims.mapanime 1_001.dmp"
 
 ALIGN 4
 Frame2:
-#incbin "Frame2.dmp"
+#incbin "castle_anims.mapanime 1_002.dmp"
 
 ALIGN 4
 Frame3:
-#incbin "Frame3.dmp"
+#incbin "castle_anims.mapanime 1_003.dmp"
 
 ALIGN 4
 Frame4:
-#incbin "Frame4.dmp"
+#incbin "castle_anims.mapanime 1_004.dmp"
 
 ALIGN 4
 Frame5:
-#incbin "Frame5.dmp"
+#incbin "castle_anims.mapanime 1_005.dmp"
 
 ALIGN 4
 Frame6:
-#incbin "Frame6.dmp"
+#incbin "castle_anims.mapanime 1_006.dmp"
 
 ALIGN 4
 Frame7:
-#incbin "Frame7.dmp"
+#incbin "castle_anims.mapanime 1_007.dmp"
 
 ALIGN 4
 CastleAnimation:
-tilesetAnimation(0x1C,0x1000,Frame0)
-tilesetAnimation(0x1C,0x1000,Frame1)
-tilesetAnimation(0x1C,0x1000,Frame2)
-tilesetAnimation(0x1C,0x1000,Frame3)
-tilesetAnimation(0x1C,0x1000,Frame4)
-tilesetAnimation(0x1C,0x1000,Frame5)
-tilesetAnimation(0x1C,0x1000,Frame6)
-tilesetAnimation(0x1C,0x1000,Frame7)
+tilesetAnimation(0x1C,0x400,Frame0)
+tilesetAnimation(0x1C,0x400,Frame1)
+tilesetAnimation(0x1C,0x400,Frame2)
+tilesetAnimation(0x1C,0x400,Frame3)
+tilesetAnimation(0x1C,0x400,Frame4)
+tilesetAnimation(0x1C,0x400,Frame5)
+tilesetAnimation(0x1C,0x400,Frame6)
+tilesetAnimation(0x1C,0x400,Frame7)
 WORD 0 0
