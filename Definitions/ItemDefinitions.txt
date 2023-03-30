@@ -1,3 +1,4 @@
+// Item IDs
 #define IronDagger 0x3F
 #define SteelDagger 0x40
 #define SilverDagger 0x41
@@ -19,3 +20,19 @@
 #define Bewildering 0xc2
 #define Battleflag 0xc3
 #define Void 0xc4
+
+// Item Icons
+#define BattleflagIcon 222 
+#define BenedictionIcon 223 
+#define BewilderingIcon 224 
+#define GreatbowIcon 225 
+#define InfiltraitorIcon 226 
+#define IronDaggerIcon 227 
+#define KardIcon 228 
+#define PeshkatzIcon 229 
+#define RefrainIcon 230 
+#define ResentmentIcon 231 
+#define SilverDaggerIcon 232 
+#define SteelDaggerIcon 233 
+#define StilettoIcon 234 
+#define VoidIcon 235 

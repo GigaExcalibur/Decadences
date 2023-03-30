@@ -6,7 +6,20 @@
 /* 
 //First free icon past vanilla is 222 / 0xDE 
  
-#define BlankIcon 222 
+#define BattleflagIcon 222 
+#define BenedictionIcon 223 
+#define BewilderingIcon 224 
+#define GreatbowIcon 225 
+#define InfiltraitorIcon 226 
+#define IronDaggerIcon 227 
+#define KardIcon 228 
+#define PeshkatzIcon 229 
+#define RefrainIcon 230 
+#define ResentmentIcon 231 
+#define SilverDaggerIcon 232 
+#define SteelDaggerIcon 233 
+#define StilettoIcon 234 
+#define VoidIcon 235 
 */ 
  
  
@@ -16,7 +29,46 @@
  
 PUSH 
  
-ItemIconEntry(BlankIcon) 
-#incbin "dmp/Blank.dmp" 
+ItemIconEntry(BattleflagIcon) 
+#incbin "dmp/Battleflag.dmp" 
+ 
+ItemIconEntry(BenedictionIcon) 
+#incbin "dmp/Benediction.dmp" 
+ 
+ItemIconEntry(BewilderingIcon) 
+#incbin "dmp/Bewildering.dmp" 
+ 
+ItemIconEntry(GreatbowIcon) 
+#incbin "dmp/Greatbow.dmp" 
+ 
+ItemIconEntry(InfiltraitorIcon) 
+#incbin "dmp/Infiltraitor.dmp" 
+ 
+ItemIconEntry(IronDaggerIcon) 
+#incbin "dmp/IronDagger.dmp" 
+ 
+ItemIconEntry(KardIcon) 
+#incbin "dmp/Kard.dmp" 
+ 
+ItemIconEntry(PeshkatzIcon) 
+#incbin "dmp/Peshkatz.dmp" 
+ 
+ItemIconEntry(RefrainIcon) 
+#incbin "dmp/Refrain.dmp" 
+ 
+ItemIconEntry(ResentmentIcon) 
+#incbin "dmp/Resentment.dmp" 
+ 
+ItemIconEntry(SilverDaggerIcon) 
+#incbin "dmp/SilverDagger.dmp" 
+ 
+ItemIconEntry(SteelDaggerIcon) 
+#incbin "dmp/SteelDagger.dmp" 
+ 
+ItemIconEntry(StilettoIcon) 
+#incbin "dmp/Stiletto.dmp" 
+ 
+ItemIconEntry(VoidIcon) 
+#incbin "dmp/Void.dmp" 
  
 POP 
