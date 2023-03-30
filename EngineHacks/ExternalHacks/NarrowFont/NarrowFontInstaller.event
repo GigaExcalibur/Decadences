@@ -33,7 +33,7 @@
 	#include "SerifUppercase/UppercaseSerif.txt"
 	#include "MenuLowercase/LowercaseMenu.txt"
 	#include "MenuUppercase/UppercaseMenu.txt"	
-		
+	#include "NarrowFontExtension\SerifExtension.txt"
 		
 		
 #else
