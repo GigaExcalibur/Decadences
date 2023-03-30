@@ -60,16 +60,16 @@ Rookie knight employed by House _____.[N]
 Liable to flee at the drop of a feather.[X]
 
 ## ClovisDesc
-Priest assigned to _____ castle town.[N]
-Bleeding heart pacifist.[X]
+The priest assigned to _____ castle[N]
+town. Bleeding heart pacifist.[X]
 
 ## EmersonDesc
 Apprentice squire mentored by Duncan.[N]
 Training to be like his deceased parents.[X]
 
 ## SolineDesc
-A mysterious woman concealed by Lord _____.[N]
-Possesses the power to raise the dead.[X]
+A mysterious woman whose existence[N]
+was concealed by House _____.[X]
 
 ## LauretteDesc
 The conjured corpse of a young woman.[N]

@@ -9,3 +9,5 @@
 #include "PersonalDataText.txt"
 
 #include "CharClassNamesDescs.txt"
+
+#include "ItemText.txt"

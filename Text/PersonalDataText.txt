@@ -68,7 +68,7 @@ They/She/He[X]
 6'3[CloseQuote][X]
 
 ## DarinaFullName
-Darina von [X]
+Darina von Vacille[X]
 
 ## DarinaHobby
 Stargazing[X]
@@ -92,7 +92,7 @@ Aleyna Platt[X]
 Fishing[X]
 
 ## DuncanFullName
-Duncan [X]
+Duncan Seitz[X]
 
 ## DuncanHobby
 Hunting[X]
@@ -116,7 +116,7 @@ Clovis Lucian[X]
 Paper plays[X]
 
 ## EmersonFullName
-????? Emerson.[X]
+????? Emerson[X]
 
 ## EmersonHobby
 No time for that.[X]
