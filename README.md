@@ -4,9 +4,17 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Wednesday, 3-29
+- Inserted item icons for daggers and prfs
+- Fixed an error with Emerson's minimug
+- Inserted Mint's NarrowFont extension
+- Finally gave last names to Darina and Duncan
+- Put off eventing as much as humanly possible
+
 ## Tuesday, 3-28
 - Finally got the map inserted properly!
 - Adjusted preliminary entries of the item table
+- I was playing Ryza 3 for most of today too before realizing I should really get back to work.
 
 ## Sunday, 3-26 and Monday, 3-27
 - Look, I can explain. ...Okay I can't explain, I was playing Atelier Ryza 3 these two days.

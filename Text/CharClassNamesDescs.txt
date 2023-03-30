@@ -32,15 +32,15 @@ Soline[X]
 Laurette?[X]
 
 ## DarinaDesc
-Newly crowned lord of House _____.[N]
+Newly crowned lord of House Vacille.[N]
 Indecisive to the point of ignobility.[X]
 
 ## EugeniaDesc
-Envoy from the elite _____.[N]
+Envoy from the elite Lentz family.[N]
 Inseperable from Darina's side.[X]
 
 ## CalvinDesc
-Spy in the employ of House ______.[N]
+Spy in the employ of House Vacille.[N]
 Flirtatious by his very nature.[X]
 
 ## AleynaDesc
@@ -48,7 +48,7 @@ Merc captain contracted by Eugenia.[N]
 Only cares for gold in this world.[X]
 
 ## DuncanDesc
-Former retainer to Lord ______.[N]
+Former retainer to Lord Vacille.[N]
 Lusts for battle and bloodshed.[X]
 
 ## EkaitzDesc
@@ -56,11 +56,11 @@ Mercenary in Aleyna's company.[N]
 Chronic scoundrel and drifter.[X]
 
 ## NiravDesc
-Rookie knight employed by House _____.[N]
+Rookie knight employed by House Vacille.[N]
 Liable to flee at the drop of a feather.[X]
 
 ## ClovisDesc
-The priest assigned to _____ castle[N]
+The priest assigned to Vacille castle[N]
 town. Bleeding heart pacifist.[X]
 
 ## EmersonDesc
@@ -69,7 +69,7 @@ Training to be like his deceased parents.[X]
 
 ## SolineDesc
 A mysterious woman whose existence[N]
-was concealed by House _____.[X]
+was concealed by House Vacille.[X]
 
 ## LauretteDesc
 The conjured corpse of a young woman.[N]
