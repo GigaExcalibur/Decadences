@@ -140,6 +140,12 @@ POP
 
   //Stat Screens palette by allegiance
   #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+  
+  //Knockback weapons
+  #include "ExternalHacks\Veslyquix ASM main MovementCalcLoop\Installer.event"
+  
+  //Negate defense
+  #include "ExternalHacks\Veslyquix ASM main NegateDef\Installer.event"
 
   //Menu Semitransparency
   #include "QualityOfLife/SemitransparencyChanges.event"
