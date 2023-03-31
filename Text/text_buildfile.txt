@@ -1,13 +1,13 @@
-#include "EngineText.txt"
+#include "SystemText/EngineText.txt"
 
-#include "SkillSysText.txt"
+#include "SystemText/SkillSysText.txt"
 
-#include "MenuCommandsText.txt"
+#include "SystemText/MenuCommandsText.txt"
 
-#include "SkillDescriptions.txt"
+#include "SystemText/SkillDescriptions.txt"
 
-#include "PersonalDataText.txt"
+#include "SystemText/PersonalDataText.txt"
 
-#include "CharClassNamesDescs.txt"
+#include "SystemText/CharClassNamesDescs.txt"
 
-#include "ItemText.txt"
+#include "SystemText/ItemText.txt"

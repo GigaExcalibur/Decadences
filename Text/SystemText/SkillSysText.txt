@@ -1,5 +1,5 @@
 # 0xc53 LikesText
-Info:[X]
+Name:[X]
 
 ## DislikesText
 Hobby:[X]
@@ -10,12 +10,14 @@ Height:[X]
 ## AgeText
 Age:[X]
 
-## HouseText
-//first text ID in the free block
-[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+## PronounsText
+Prns:[X]
 
-## VillageText
-[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+## SupportsText
+Supports:[X]
+
+## HouseText
+[FFL][LoadCurrent]Hnnnnnnnnnnnnn[A][X]
 
 ## DV1Desc
 Freeze all enemies[N]
@@ -169,8 +171,7 @@ Bad[X]
 Worst[X]
 
 ## LikesDesc
-This character's full[N]
-name and pronouns.[X]
+This character's full name.[X]
 
 ## DislikesDesc
 This character's[N]
@@ -182,3 +183,9 @@ This character's current age.[X]
 ## HeightDesc
 This character's height.[X]
 
+## PronounsDesc
+This character's preferred pronouns.[X]
+
+## SupportsDesc
+Characters whom this unit[N]
+has a special bond with.[X]
