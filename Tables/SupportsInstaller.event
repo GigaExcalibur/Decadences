@@ -1,0 +1,64 @@
+#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define EndSupportPointer(Partners) "BYTE Partners 0 0"
+
+DarinaSupports:
+CharacterSupport(Eugenia, Calvin, Duncan, Soline, 0, 0, 0)
+SupportBases(255, 200, 100, 100, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(4)
+
+EugeniaSupports:
+CharacterSupport(Darina, Calvin, Aleyna, 0, 0, 0, 0)
+SupportBases(255, 100, 200, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+CalvinSupports:
+CharacterSupport(Darina, Eugenia, Clovis, 0, 0, 0, 0)
+SupportBases(200, 100, 255, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+AleynaSupports:
+CharacterSupport(Eugenia, Duncan, Ekaitz, 0, 0, 0, 0)
+SupportBases(200, 231, 100, 0, 0, 0, 0)
+SupportGrowths(0, 1, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+DuncanSupports:
+CharacterSupport(Darina, Aleyna, Emerson, 0, 0, 0, 0)
+SupportBases(100, 231, 200, 0, 0, 0, 0)
+SupportGrowths(0, 1, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+EkaitzSupports:
+CharacterSupport(Aleyna, Nirav, Soline, 0, 0, 0, 0)
+SupportBases(100, 200, 100, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+NiravSupports:
+CharacterSupport(Ekaitz, Clovis, Emerson, 0, 0, 0, 0)
+SupportBases(200, 200, 200, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+ClovisSupports:
+CharacterSupport(Calvin, Nirav, Soline, 0, 0, 0, 0)
+SupportBases(255, 200, 100, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+EmersonSupports:
+CharacterSupport(Duncan, Nirav, Soline, 0, 0, 0, 0)
+SupportBases(200, 200, 100, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(3)
+
+SolineSupports:
+CharacterSupport(Darina, Ekaitz, Clovis, Emerson, 0, 0, 0)
+SupportBases(100, 100, 100, 100, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+EndSupportPointer(4)

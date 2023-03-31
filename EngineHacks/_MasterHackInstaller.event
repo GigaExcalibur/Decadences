@@ -106,6 +106,9 @@ POP
   
   //Biorhythm
   #include "ExternalHacks/Biorhythm/Biorhythm.event"
+  
+  //Draw Supports Down
+  #include "InlineChanges/DrawSupportsDown.event"
 
   //Modular Stat Screen
   #include "Necessary/ModularStatScreen/ModularStatScreen.event"

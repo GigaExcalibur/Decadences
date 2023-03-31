@@ -62,6 +62,7 @@ Display skill names - Pawkkie
 Negate Def% - Vesly
 Knockback weapons - Vesly
 NarrowFont Extended - MintX
+DrawSupports notes - hypergammaspaces
 
 # Assistance
 Initial motivation - Darrman
