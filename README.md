@@ -4,6 +4,14 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Thursday, 3-30
+- Adjusted page 4 of MSS to display supports (and a category for pronouns)
+- Set up pre-built supports for every character
+- Set up advanced weapon locks for every prf
+- Reorganized text
+- Attempted to insert a new status screen (unsuccessful, system graphics compression is going to be the end of me)
+- Removed weapon triangle
+
 ## Wednesday, 3-29
 - Inserted item icons for daggers and prfs
 - Fixed an error with Emerson's minimug
