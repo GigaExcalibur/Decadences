@@ -16,17 +16,11 @@ LockIDGetter:
 	#include "LockIDGetter_Classic.lyn.event"
 #endif // CONSOLIDATED_ADV_WEAPON_LOCKS
 
+#include "AdvWeaponLocks.lyn.event"
+
 // This is only used when consolidated adv weapon locks are on, add the lock ID with the macro here for the item ID
 LockAssociationTable:
 FILL 256
-
-#define SetLockAssociation(itemID,lockID) "PUSH; ORG LockAssociationTable+itemID; BYTE lockID; POP"
-
-// e.g. `SetLockAssociation(IronSword,1)`
-// Then instead of putting this in byte 4 of the weapon ability word just set bit 0x01000000
-
-
-#include "AdvWeaponLocks.lyn.event"
 
 #define SoftCharLock 0
 #define HardCharLock 1
@@ -34,10 +28,46 @@ FILL 256
 #define HardClassLock 3
 #define EndLockArray 0
 
-TestArray:
-BYTE HardClassLock
-BYTE EirikaLord
-BYTE Rogue
-BYTE EndLockArray
+#define SetLockAssociation(itemID,lockID) "PUSH; ORG LockAssociationTable+itemID; BYTE lockID; POP"
+
+// e.g. `SetLockAssociation(IronSword,1)`
+// Then instead of putting this in byte 4 of the weapon ability word just set bit 0x01000000
+
+SetLockAssociation(Greatbow, 0x01)
+SetLockAssociation(Refrain, 0x02)
+SetLockAssociation(Infiltraitor, 0x03)
+SetLockAssociation(Resentment, 0x04)
+SetLockAssociation(Benediction, 0x05)
+SetLockAssociation(Bewildering, 0x06)
+SetLockAssociation(Battleflag, 0x07)
+SetLockAssociation(Chosens, 0x08)
+SetLockAssociation(Void, 0x09)
+
+GreatbowLock:
+BYTE HardClassLock Trickster EndLockArray
+
+RefrainLock:
+BYTE HardClassLock Spellstrider EndLockArray
+
+InfiltraitorLock:
+BYTE HardClassLock Whisper EndLockArray
+
+ResentmentLock:
+BYTE HardClassLock Veteran EndLockArray
+
+BenedictionLock:
+BYTE HardClassLock Varangian EndLockArray
+
+BewilderingLock:
+BYTE HardClassLock Skirmisher EndLockArray
+
+BattleflagLock:
+BYTE HardClassLock Harrier Squire Juggernaut EndLockArray
+
+ChosensLock:
+BYTE HardClassLock Saint EndLockArray
+
+VoidLock:
+BYTE HardClassLock Conjurer EndLockArray
 
 #endif // ADV_WEAPON_LOCKS

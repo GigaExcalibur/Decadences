@@ -9,7 +9,7 @@ MSS_page4:
 
 page_start
 
-draw_textID_at 13, 3, textID=0xC53, width=16, colour=Blue
+draw_textID_at 13, 3, textID=0xC53, width=4, colour=Blue
 
 @ first like
 mov    r0,r8
@@ -44,6 +44,7 @@ b LiteralJump1
 .align
 LiteralJump1:
 
+draw_textID_at 13, 5, textID=0xC57, width=3, colour=Blue
 @ second like
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
@@ -71,7 +72,7 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 7, textID=0xC54, width=16, colour=Blue
+draw_textID_at 13, 7, textID=0xC54, width=4, colour=Blue
 
 b LiteralJump2
 .ltorg
@@ -133,7 +134,7 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 11, textID=0xC56, width=16, colour=Blue
+draw_textID_at 13, 9, textID=0xC56, width=3, colour=Blue
 
 b LiteralJump3
 .ltorg
@@ -163,12 +164,12 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*16))
+ldr    r1, =(tile_origin+(0x20*2*9)+(2*16))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 21, 11, textID=0xC55, width=16, colour=Blue
+draw_textID_at 21, 9, textID=0xC55, width=4, colour=Blue
 
 b LiteralJump4
 .ltorg
@@ -198,10 +199,13 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*25))
+ldr    r1, =(tile_origin+(0x20*2*9)+(2*25))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
+
+draw_textID_at 13, 11, textID=0xC58, width=6, colour=Blue
+blh      DrawSupports
 
 @ Next let's draw Gaiden spells if the hack is installed.
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
