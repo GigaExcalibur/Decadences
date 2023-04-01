@@ -63,6 +63,7 @@ Negate Def% - Vesly
 Knockback weapons - Vesly
 NarrowFont Extended - MintX
 DrawSupports notes - hypergammaspaces
+Text Engine Rework - Teq
 
 # Assistance
 Initial motivation - Darrman

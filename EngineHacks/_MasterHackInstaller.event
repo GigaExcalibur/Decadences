@@ -251,3 +251,5 @@ POP
     MESSAGE "Using EMS Save/Suspend Expansion"
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
+  //Text engine rework
+  #include "ExternalHacks\FE8-Text_Engine_Rework\_FE8-Text_Engine_Rework_EA.event"
