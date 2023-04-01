@@ -253,3 +253,6 @@ POP
 
   //Text engine rework
   #include "ExternalHacks\FE8-Text_Engine_Rework\_FE8-Text_Engine_Rework_EA.event"
+  
+  //Uncounterable Range Fix
+  #include "InlineChanges/UncounterableRangeFix.event"

@@ -42,16 +42,16 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AFEV 0x0 DarinaDies DarinaDeathFlag
-AFEV 0x0 EugeniaDies EugeniaDeathFlag
-AFEV 0x0 CalvinDies CalvinDeathFlag
-AFEV 0x0 AleynaDies AleynaDeathFlag
-AFEV 0x0 DuncanDies DuncanDeathFlag
-AFEV 0x0 EkaitzDies EkaitzDeathFlag
-AFEV 0x0 NiravDies NiravDeathFlag
-AFEV 0x0 ClovisDies ClovisDeathFlag
-AFEV 0x0 EmersonDies EmersonDeathFlag
-AFEV 0x0 SolineDies SolineDeathFlag
+AFEV SeenDarinaDeathScene DarinaDies DarinaDeathFlag
+AFEV SeenEugeniaDeathScene EugeniaDies EugeniaDeathFlag
+AFEV SeenCalvinDeathScene CalvinDies CalvinDeathFlag
+AFEV SeenAleynaDeathScene AleynaDies AleynaDeathFlag
+AFEV SeenDuncanDeathScene DuncanDies DuncanDeathFlag
+AFEV SeenEkaitzDeathScene EkaitzDies EkaitzDeathFlag
+AFEV SeenNiravDeathScene NiravDies NiravDeathFlag
+AFEV SeenClovisDeathScene ClovisDies ClovisDeathFlag
+AFEV SeenEmersonDeathScene EmersonDies EmersonDeathFlag
+AFEV SeenSolineDeathScene SolineDies SolineDeathFlag
 
 END_MAIN
 

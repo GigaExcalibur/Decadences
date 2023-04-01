@@ -11,7 +11,7 @@
 #define SeenSolineSelectionQuote 0x10
 
 // Death flags
-#define DarinaDeathFlag 0x11 // intermediate step to call the game over flag
+#define DarinaDeathFlag 0x11
 #define EugeniaDeathFlag 0x12
 #define CalvinDeathFlag 0x13
 #define AleynaDeathFlag 0x14
@@ -21,3 +21,15 @@
 #define ClovisDeathFlag 0x18
 #define EmersonDeathFlag 0x19
 #define SolineDeathFlag 0x1A
+
+// Seen death scene completion flags
+#define SeenDarinaDeathScene 0x65 // Calls game over
+#define SeenEugeniaDeathScene 0x1B
+#define SeenCalvinDeathScene 0x1C
+#define SeenAleynaDeathScene 0x1D
+#define SeenDuncanDeathScene 0x1E
+#define SeenEkaitzDeathScene 0x1F
+#define SeenNiravDeathScene 0x20
+#define SeenClovisDeathScene 0x21
+#define SeenEmersonDeathScene 0x22
+#define SeenSolineDeathScene 0x23
