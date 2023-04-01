@@ -4,6 +4,12 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Friday, 3-31
+- Text Engine Rework!
+- Selection quotes!
+- Death quotes!
+- Fixed spell association list for most weapons
+
 ## Thursday, 3-30
 - Adjusted page 4 of MSS to display supports (and a category for pronouns)
 - Set up pre-built supports for every character
