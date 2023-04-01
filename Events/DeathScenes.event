@@ -1,0 +1,60 @@
+ALIGN 4
+DarinaDies:
+Text(DarinaDeathScene)
+ENUT 0x65
+NoFade
+ENDA
+
+ALIGN 4
+EugeniaDies:
+Text(EugeniaDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+CalvinDies:
+Text(CalvinDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+AleynaDies:
+Text(AleynaDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+DuncanDies:
+Text(DuncanDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+EkaitzDies:
+Text(EkaitzDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+NiravDies:
+Text(NiravDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+ClovisDies:
+Text(ClovisDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+EmersonDies:
+Text(EmersonDeathScene)
+NoFade
+ENDA
+
+ALIGN 4
+SolineDies:
+Text(SolineDeathScene)
+NoFade
+ENDA

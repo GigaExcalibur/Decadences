@@ -2,37 +2,37 @@
 Iron Dagger[X]
 
 ## IronDaggerDesc
-Ignores 20% of foe's defense.[X]
+Negates 20% enemy defense.[X]
 
 ## SteelDaggerName
 Steel Dagger[X]
 
 ## SteelDaggerDesc
-Ignores 35% of foe's defense.[X]
+Negates 35% enemy defense.[X]
 
 ## SilverDaggerName
 Silver Dagger[X]
 
 ## SilverDaggerDesc
-Ignores 50% of foe's defense.[X]
+Negates 50% enemy defense.[X]
 
 ## KardName
 Kard[X]
 
 ## KardDesc
-Ignores 20% of foe's defense.[X]
+Negates 20% enemy defense.[X]
 
 ## StilettoName
 Stiletto[X]
 
 ## StilettoDesc
-Ignores 35% of foe's defense.[X]
+Negates 35% enemy defense.[X]
 
 ## PeshkatzName
 Peshkatz[X]
 
 ## PeshkatzDesc
-Ignores 50% of foe's defense.[X]
+Negates 50% enemy defense.[X]
 
 ## GreatbowName
 Greatbow[X]
@@ -44,19 +44,20 @@ Greatbow[X]
 Refrain[X]
 
 ## RefrainDesc
-[LockIcon]Eugenia. Pushes foe back after combat.[X]
+[LockIcon]Eugenia. Pushes foe back[N]
+one space after combat.[X]
 
 ## InfiltraitorName
 Infiltraitor[X]
 
 ## InfiltraitorDesc
-[LockIcon]Calvin. Ignores all of foe's defense.[X]
+[LockIcon]Calvin. Negates all enemy defense.[X]
 
 ## ResentmentName
 Resentment[X]
 
 ## ResentmentDesc
-[LockIcon]Aleyna. Increased critical hit rate.[X]
+[LockIcon]Aleyna. Increased crit rate.[X]
 
 ## BenedictionName
 Benediction[X]

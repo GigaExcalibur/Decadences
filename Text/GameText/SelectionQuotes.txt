@@ -1,0 +1,45 @@
+## DarinaSelectionQuote
+[BoxHeight][0x3]
+[MR][LoadDarina]
+[MR]Deep breaths, Darina.[A][X]
+
+## EugeniaSelectionQuote
+[MR][LoadEugenia]
+[MR]Hoo. Okay.[A][X]
+
+## CalvinSelectionQuote
+[MR][LoadCalvin]
+[MR]Hoo. Okay.[A][X]
+
+## AleynaSelectionQuote
+[MR][LoadAleyna]
+[MR]Hoo. Okay.[A][X]
+
+## DuncanSelectionQuote
+[MR][LoadDuncan]
+[MR]Hoo. Okay.[A][X]
+
+## EkaitzSelectionQuote
+[BoxHeight][0x3]
+[MR][LoadEkaitz]
+[ML][LoadNirav]
+[MR]Do what you gotta do. Steal a dead body,[N]
+set fire to an abandoned shed you were[N]
+squatting in, fake your own death... twice.[AN]
+[ML]What the fuck are you talking about.[A][X]
+
+## NiravSelectionQuote
+[MR][LoadNirav]
+[MR]Hoo. Okay.[A][X]
+
+## ClovisSelectionQuote
+[MR][LoadClovis]
+[MR]Hoo. Okay.[A][X]
+
+## EmersonSelectionQuote
+[MR][LoadEmerson]
+[MR]Hoo. Okay.[A][X]
+
+## SolineSelectionQuote
+[MR][LoadSoline]
+[MR]Hoo. Okay.[A][X]

@@ -1,0 +1,39 @@
+## DarinaDeathScene
+[MR][LoadDarina]
+[MR]Ah! Am dead.[A][X]
+
+## EugeniaDeathScene
+[MR][LoadEugenia]
+[MR]Ah! Am dead.[A][X]
+
+## CalvinDeathScene
+[MR][LoadCalvin]
+[MR]Ah! Am dead.[A][X]
+
+## AleynaDeathScene
+[MR][LoadAleyna]
+[MR]Ah! Am dead.[A][X]
+
+## DuncanDeathScene
+[MR][LoadDuncan]
+[MR]Ah! Am dead.[A][X]
+
+## EkaitzDeathScene
+[MR][LoadEkaitz]
+[MR]Ah! Am dead.[A][X]
+
+## NiravDeathScene
+[MR][LoadNirav]
+[MR]Ah! Am dead.[A][X]
+
+## ClovisDeathScene
+[MR][LoadClovis]
+[MR]Ah! Am dead.[A][X]
+
+## EmersonDeathScene
+[MR][LoadEmerson]
+[MR]Ah! Am dead.[A][X]
+
+## SolineDeathScene
+[MR][LoadSoline]
+[MR]Ah! Am dead.[A][X]

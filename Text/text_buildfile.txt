@@ -11,3 +11,7 @@
 #include "SystemText/CharClassNamesDescs.txt"
 
 #include "SystemText/ItemText.txt"
+
+#include "GameText/SelectionQuotes.txt"
+
+#include "GameText/DeathScenes.txt"

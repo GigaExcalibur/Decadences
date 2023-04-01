@@ -1,0 +1,23 @@
+// Seen selection quote completion flags
+#define SeenDarinaSelectionQuote 0x07
+#define SeenEugeniaSelectionQuote 0x08
+#define SeenCalvinSelectionQuote 0x09
+#define SeenAleynaSelectionQuote 0x0A
+#define SeenDuncanSelectionQuote 0x0B
+#define SeenEkaitzSelectionQuote 0x0C
+#define SeenNiravSelectionQuote 0x0D
+#define SeenClovisSelectionQuote 0x0E
+#define SeenEmersonSelectionQuote 0x0F
+#define SeenSolineSelectionQuote 0x10
+
+// Death flags
+#define DarinaDeathFlag 0x11 // intermediate step to call the game over flag
+#define EugeniaDeathFlag 0x12
+#define CalvinDeathFlag 0x13
+#define AleynaDeathFlag 0x14
+#define DuncanDeathFlag 0x15
+#define EkaitzDeathFlag 0x16
+#define NiravDeathFlag 0x17
+#define ClovisDeathFlag 0x18
+#define EmersonDeathFlag 0x19
+#define SolineDeathFlag 0x1A

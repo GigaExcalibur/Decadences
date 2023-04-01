@@ -47,6 +47,9 @@ Knife mastery level.[X]
   
 # 0x0501 CritText
   Crit[X]
+  
+# 0x502 WtText
+  Wt[X]
 
 # 0x0504 ASText
   AS[X]

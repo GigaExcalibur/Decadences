@@ -7,3 +7,5 @@
 #include "AnimationDefinitions.txt"
 
 #include "EventPointerDefs.txt"
+
+#include "FlagDefinitions.txt"

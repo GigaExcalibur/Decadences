@@ -1,0 +1,129 @@
+ALIGN 4
+DarinaSelect:
+CHECK_ACTIVE
+SVAL s1 Darina
+BEQ 1 s1 sC
+ENUF SeenDarinaSelectionQuote
+GOTO 2
+LABEL 1
+Text(DarinaSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+EugeniaSelect:
+CHECK_ACTIVE
+SVAL s1 Eugenia
+BEQ 1 s1 sC
+ENUF SeenEugeniaSelectionQuote
+GOTO 2
+LABEL 1
+Text(EugeniaSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+CalvinSelect:
+CHECK_ACTIVE
+SVAL s1 Calvin
+BEQ 1 s1 sC
+ENUF SeenCalvinSelectionQuote
+GOTO 2
+LABEL 1
+Text(CalvinSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+AleynaSelect:
+CHECK_ACTIVE
+SVAL s1 Aleyna
+BEQ 1 s1 sC
+ENUF SeenAleynaSelectionQuote
+GOTO 2
+LABEL 1
+Text(AleynaSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+DuncanSelect:
+CHECK_ACTIVE
+SVAL s1 Duncan
+BEQ 1 s1 sC
+ENUF SeenDuncanSelectionQuote
+GOTO 2
+LABEL 1
+Text(DuncanSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+EkaitzSelect:
+CHECK_ACTIVE
+SVAL s1 Ekaitz
+BEQ 1 s1 sC
+ENUF SeenEkaitzSelectionQuote
+GOTO 2
+LABEL 1
+Text(EkaitzSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+NiravSelect:
+CHECK_ACTIVE
+SVAL s1 Nirav
+BEQ 1 s1 sC
+ENUF SeenNiravSelectionQuote
+GOTO 2
+LABEL 1
+Text(NiravSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+ClovisSelect:
+CHECK_ACTIVE
+SVAL s1 Clovis
+BEQ 1 s1 sC
+ENUF SeenClovisSelectionQuote
+GOTO 2
+LABEL 1
+Text(ClovisSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+EmersonSelect:
+CHECK_ACTIVE
+SVAL s1 Emerson
+BEQ 1 s1 sC
+ENUF SeenEmersonSelectionQuote
+GOTO 2
+LABEL 1
+Text(EmersonSelectionQuote)
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+SolineSelect:
+CHECK_ACTIVE
+SVAL s1 Soline
+BEQ 1 s1 sC
+ENUF SeenSolineSelectionQuote
+GOTO 2
+LABEL 1
+Text(SolineSelectionQuote)
+LABEL 2
+NoFade
+ENDA

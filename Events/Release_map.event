@@ -42,9 +42,31 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AFEV 0x0 DarinaDies DarinaDeathFlag
+AFEV 0x0 EugeniaDies EugeniaDeathFlag
+AFEV 0x0 CalvinDies CalvinDeathFlag
+AFEV 0x0 AleynaDies AleynaDeathFlag
+AFEV 0x0 DuncanDies DuncanDeathFlag
+AFEV 0x0 EkaitzDies EkaitzDeathFlag
+AFEV 0x0 NiravDies NiravDeathFlag
+AFEV 0x0 ClovisDies ClovisDeathFlag
+AFEV 0x0 EmersonDies EmersonDeathFlag
+AFEV 0x0 SolineDies SolineDeathFlag
+
 END_MAIN
 
 Dunno1:
+AFEV SeenDarinaSelectionQuote DarinaSelect 0
+AFEV SeenEugeniaSelectionQuote EugeniaSelect 0
+AFEV SeenCalvinSelectionQuote CalvinSelect 0
+AFEV SeenAleynaSelectionQuote AleynaSelect 0
+AFEV SeenDuncanSelectionQuote DuncanSelect 0
+AFEV SeenEkaitzSelectionQuote EkaitzSelect 0
+AFEV SeenNiravSelectionQuote NiravSelect 0
+AFEV SeenClovisSelectionQuote ClovisSelect 0
+AFEV SeenEmersonSelectionQuote EmersonSelect 0
+AFEV SeenSolineSelectionQuote SolineSelect 0
+
 END_MAIN
 
 Dunno2:
@@ -69,6 +91,10 @@ UNIT Emerson Squire Darina Level(1, Ally, 0) [5,8] 0b 0x0 0x0 0x0 [IronLance, Ir
 UNIT Soline Conjurer Darina Level(14, Ally, 0)  [1,1] 0b 0x0 0x0 0x0 [Fire, KnightCrest, Void, 0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
+TestingEnemy:
+UNIT 0x66 Berserker 0x66 Level(1, Enemy, 1) [7, 7] 0b 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT
+
 ALIGN 4
 Traps1:
 ENDTRAP
@@ -80,6 +106,7 @@ ENDTRAP
 ALIGN 4
 BeginningScene:
 LOAD1 0x0 PlayableUnits //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+LOAD1 0x0 TestingEnemy
 ENUN
 // FADI 10
 // MOVE 0 Carlyle [7,10]
@@ -101,3 +128,7 @@ EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
 ENDA
+
+#include "SelectionQuotes.event"
+
+#include "DeathScenes.event"
