@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Saturday, 4-1
+- Removed creature campaign units for their sweet, sweet event ids
+- Began work on preliminary talk conversations. Text Engine Rework good.
+- Honestly today was mostly a break day. I could've done more but the academic quarter is starting on Monday and I needed a day to mentally prepare for that.
+
 ## Friday, 3-31
 - Text Engine Rework!
 - Selection quotes!
