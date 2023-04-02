@@ -35,6 +35,7 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(SeenEkaitzNiravTalkConvo, EkaitzNiravTalking, Ekaitz, Nirav)
 END_MAIN
 
 LocationBasedEvents:
@@ -132,3 +133,5 @@ ENDA
 #include "SelectionQuotes.event"
 
 #include "DeathScenes.event"
+
+#include "InitialTalkConvos.event"

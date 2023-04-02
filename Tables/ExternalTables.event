@@ -74,5 +74,6 @@ ORG $59BA90
 BYTE 0xFF 0 0 0
 POP
 
-#include "PromotionTable.event"
-#include "SupportsInstaller.event"
+#include "ExternalTables/PromotionTable.event"
+#include "ExternalTables/SupportsInstaller.event"
+#include "ExternalTables/CreatureCampaignUnits.event"

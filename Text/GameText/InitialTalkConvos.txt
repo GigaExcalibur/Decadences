@@ -1,0 +1,14 @@
+## DarinaSolineTalkConvo
+.[X]
+
+## EkaitzNiravTalkConvo
+[BoxHeight][0x1]
+[MR][LoadEkaitz][ML][LoadNirav]
+[ML]Hey! Excuse me, who the hell are you?[AN]
+[BoxHeight][0x2]
+[MR]Whoa there, lady. Didn't they teach you to[N]
+introduce yourself before asking others?[AN]
+[ML]Sure, maybe for a tea party. Shall I call[N]
+my butler over to serve biscuits, then?[AN][CloseBox]
+[ML][OpenQuote][Italics]Oh Nirav, you[Normal]'[Italics]re just as beautiful as[N]
+the trill of your name off my tongue.[Normal][CloseQuote][AN][CloseBox]

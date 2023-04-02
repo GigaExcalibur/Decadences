@@ -2,6 +2,7 @@
 [n] = [N]
 [a] = [A]
 [ANL] = [A][NL]
+[AX] = [A][X]
 [AN] = [ANL]
 [YN] = [Yes]
 [NY] = [No]
@@ -16,6 +17,7 @@
 [.7] = [.......]
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
+[CloseBox] = [CloseSpeechSlow]
 
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
@@ -87,6 +89,10 @@
 [MFFR2] = [0x80][0x37]
 [TextSpeed] = [0x80][0x38]
 [DefaultAttrs] = [0x01][0x02][0x01][0x01][0x0D]
+
+[Normal] = [Font][0x1]
+[Bold] = [Font][0x2]
+[Italics] = [Font][0x3]
 
 [CurrentPortrait] = [0xFF][0xFF]
 

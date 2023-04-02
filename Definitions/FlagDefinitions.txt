@@ -1,35 +1,42 @@
 // Seen selection quote completion flags
-#define SeenDarinaSelectionQuote 0x07
-#define SeenEugeniaSelectionQuote 0x08
-#define SeenCalvinSelectionQuote 0x09
-#define SeenAleynaSelectionQuote 0x0A
-#define SeenDuncanSelectionQuote 0x0B
-#define SeenEkaitzSelectionQuote 0x0C
-#define SeenNiravSelectionQuote 0x0D
-#define SeenClovisSelectionQuote 0x0E
-#define SeenEmersonSelectionQuote 0x0F
-#define SeenSolineSelectionQuote 0x10
+#define SeenDarinaSelectionQuote 0x01
+#define SeenEugeniaSelectionQuote 0x02
+#define SeenCalvinSelectionQuote 0x05
+#define SeenAleynaSelectionQuote 0x07
+#define SeenDuncanSelectionQuote 0x08
+#define SeenEkaitzSelectionQuote 0x09
+#define SeenNiravSelectionQuote 0x0A
+#define SeenClovisSelectionQuote 0x0B
+#define SeenEmersonSelectionQuote 0x0C
+#define SeenSolineSelectionQuote 0x0D
 
 // Death flags
-#define DarinaDeathFlag 0x11
-#define EugeniaDeathFlag 0x12
-#define CalvinDeathFlag 0x13
-#define AleynaDeathFlag 0x14
-#define DuncanDeathFlag 0x15
-#define EkaitzDeathFlag 0x16
-#define NiravDeathFlag 0x17
-#define ClovisDeathFlag 0x18
-#define EmersonDeathFlag 0x19
-#define SolineDeathFlag 0x1A
+#define DarinaDeathFlag 0x0E
+#define EugeniaDeathFlag 0x0F
+#define CalvinDeathFlag 0x10
+#define AleynaDeathFlag 0x11
+#define DuncanDeathFlag 0x12
+#define EkaitzDeathFlag 0x13
+#define NiravDeathFlag 0x14
+#define ClovisDeathFlag 0x15
+#define EmersonDeathFlag 0x16
+#define SolineDeathFlag 0x17
 
 // Seen death scene completion flags
-#define SeenDarinaDeathScene 0x65 // Calls game over
-#define SeenEugeniaDeathScene 0x1B
-#define SeenCalvinDeathScene 0x1C
-#define SeenAleynaDeathScene 0x1D
-#define SeenDuncanDeathScene 0x1E
-#define SeenEkaitzDeathScene 0x1F
-#define SeenNiravDeathScene 0x20
-#define SeenClovisDeathScene 0x21
-#define SeenEmersonDeathScene 0x22
-#define SeenSolineDeathScene 0x23
+#define SeenDarinaDeathScene 0x65 // Global flag for game over
+#define SeenEugeniaDeathScene 0x18
+#define SeenCalvinDeathScene 0x19
+#define SeenAleynaDeathScene 0x1A
+#define SeenDuncanDeathScene 0x67 // Global flag for his good ending
+#define SeenEkaitzDeathScene 0x1B
+#define SeenNiravDeathScene 0x1C
+#define SeenClovisDeathScene 0x1D
+#define SeenEmersonDeathScene 0x1E
+#define SeenSolineDeathScene 0x1F
+
+// Initial talk conversation completion flags
+#define SeenDarinaSolineTalkConvo 0x20
+#define SeenEugeniaAleynaTalkConvo 0x21
+#define SeenCalvinClovisTalkConvo 0x22
+#define SeenDuncanEmersonTalkConvo 0x23
+#define SeenEkaitzNiravTalkConvo 0x24

@@ -15,3 +15,5 @@
 #include "GameText/SelectionQuotes.txt"
 
 #include "GameText/DeathScenes.txt"
+
+#include "GameText/InitialTalkConvos.txt"
