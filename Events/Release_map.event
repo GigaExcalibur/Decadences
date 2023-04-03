@@ -35,7 +35,12 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(SeenDarinaSolineTalkConvo, DarinaSolineTalking, Darina, Soline)
+CharacterEventBothWays(SeenEugeniaAleynaTalkConvo, EugeniaAleynaTalking, Eugenia, Aleyna)
+CharacterEventBothWays(SeenCalvinClovisTalkConvo, CalvinClovisTalking, Calvin, Clovis)
+CharacterEventBothWays(SeenDuncanEmersonTalkConvo, DuncanEmersonTalking, Duncan, Emerson)
 CharacterEventBothWays(SeenEkaitzNiravTalkConvo, EkaitzNiravTalking, Ekaitz, Nirav)
+
 END_MAIN
 
 LocationBasedEvents:

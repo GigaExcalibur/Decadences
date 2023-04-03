@@ -1,4 +1,28 @@
 ALIGN 4
+DarinaSolineTalking:
+Text(DarinaSolineTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+EugeniaAleynaTalking:
+Text(EugeniaAleynaTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+CalvinClovisTalking:
+Text(CalvinClovisTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+DuncanEmersonTalking:
+Text(DuncanEmersonTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
 EkaitzNiravTalking:
 Text(EkaitzNiravTalkConvo)
 NoFade
