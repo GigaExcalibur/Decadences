@@ -4,6 +4,9 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Sunday, 4-2
+- Wrote initial talk conversations
+
 ## Saturday, 4-1
 - Removed creature campaign units for their sweet, sweet event ids
 - Began work on preliminary talk conversations. Text Engine Rework good.
