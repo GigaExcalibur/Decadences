@@ -256,3 +256,6 @@ POP
   
   //Uncounterable Range Fix
   #include "InlineChanges/UncounterableRangeFix.event"
+  
+  //Awakening Style Durability
+  #include "ExternalHacks\AwakeningStyleDurability\AwakeningStyleDurability.lyn.event"
