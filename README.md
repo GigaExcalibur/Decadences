@@ -4,6 +4,10 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Monday, 4-3
+- Finished initial talk conversations
+- Made it so weapons only display current durability, and that unbreakable weapons and items no longer display durability at all.
+
 ## Sunday, 4-2
 - Wrote initial talk conversations
 
