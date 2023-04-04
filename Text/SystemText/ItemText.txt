@@ -66,7 +66,7 @@ Benediction[X]
 [LockIcon]Duncan. Strikes consecutively.[X]
 
 ## BewilderingName
-Bewildering[X]
+Bewildering Grace[X]
 
 ## BewilderingDesc
 [LockIcon]Ekaitz. (31-Luck)% chance to backfire.[X]
