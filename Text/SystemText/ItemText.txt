@@ -35,13 +35,13 @@ Peshkatz[X]
 Negates 50% enemy defense.[X]
 
 ## GreatbowName
-Greatbow[X]
+Leviathan Greatbow[X]
 
 ## GreatbowDesc
 [LockIcon]Darina. Extended attack range.[X]
 
 ## RefrainName
-Refrain[X]
+Windy Refrain[X]
 
 ## RefrainDesc
 [LockIcon]Eugenia. Pushes foe back[N]
@@ -78,7 +78,7 @@ Battleflag[X]
 [LockIcon]Nirav and Emerson. Uncounterable.[X]
 
 ## ChosensName
-Chosen's[X]
+Chosen's Staff[X]
 
 ## ChosensDesc
 [LockIcon]Clovis. Fully heals all allies.[X]
