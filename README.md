@@ -3,6 +3,12 @@
 Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my submission for MARTH 2023.
 
 # Devlog, read at your own peril
+- Began secondary talk convos
+
+## Tuesday, 4-4
+- Made more progress in fixing extend weapon name display
+- Finished initial talk conversations for real this time
+- Could've done more work today as well but my Tuesday/Thursday class schedule is heavier than I anticipated.
 
 ## Monday, 4-3
 - Finished initial talk conversations

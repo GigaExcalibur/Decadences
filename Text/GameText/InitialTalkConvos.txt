@@ -87,7 +87,9 @@ for myself, but now I give everything to you.[AN]
 [ML]Aw, you're so sweet.[A] I'm going back to[N]
 battle now, but I appreciate the flowers.[AN][ClearFace]
 [MR][Beat]Clovis, I'm going to give you the entire[N]
-world.[A] The only way I know how.[A][X]
+world.[A] The only way I know how.[AN]
+Once I get at least three Sacred[N]
+Treasures, we can be free[Beat][A][X]
 
 ## DuncanEmersonTalkConvo
 [ML][LoadDuncan][MR][LoadEmerson]

@@ -93,26 +93,26 @@ Void[X]
 Ruby Stone[X]
 
 ## RubyStoneDesc
-A stone that glitters like the dusk.[N]
-One of the keys to Calvin's freedom.[X]
+A Sacred Treasure that glitters like the[N]
+dawn. One of the keys to Calvin's freedom.[X]
 
 ## SapphireStoneName
 Sapphire Stone[X]
 
 ## SapphireStoneDesc
-A stone that glitters like the day.[N]
-One of the keys to Calvin's freedom.[X]
+A Sacred Treasure that glitters like the[N]
+dusk. One of the keys to Calvin's freedom.[X]
 
 ## OnyxStoneName
-Emerald Stone[X]
+Onyx Stone[X]
 
 ## OnyxStoneDesc
-A stone that glitters like the night.[N]
-One of the keys to Calvin's freedom.[X]
+A Sacred Treasure that glitters like the[N]
+night. One of the keys to Calvin's freedom.[X]
 
 ## GoldStoneName
 Gold Stone[X]
 
 ## GoldStoneDesc
-A stone that glitters like the dawn.[N]
-One of the keys to Calvin's freedom.[X]
+A Sacred Treasure that glitters like the[N]
+day. One of the keys to Calvin's freedom.[X]
