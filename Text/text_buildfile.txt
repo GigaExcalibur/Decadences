@@ -1,5 +1,6 @@
 #include "SystemText/EngineText.txt"
 
+// Text ids from here on go in the free block
 #include "SystemText/SkillSysText.txt"
 
 #include "SystemText/MenuCommandsText.txt"
@@ -17,3 +18,5 @@
 #include "GameText/DeathScenes.txt"
 
 #include "GameText/InitialTalkConvos.txt"
+
+#include "GameText/SecondaryTalkConvos.txt"

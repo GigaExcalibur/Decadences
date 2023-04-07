@@ -27,7 +27,7 @@
 #define SeenEugeniaDeathScene 0x18
 #define SeenCalvinDeathScene 0x19
 #define SeenAleynaDeathScene 0x1A
-#define SeenDuncanDeathScene 0x67 // Global flag for his good ending
+#define SeenDuncanDeathScene 0x12C // Global flag for his good ending, i'll start working backwards from here
 #define SeenEkaitzDeathScene 0x1B
 #define SeenNiravDeathScene 0x1C
 #define SeenClovisDeathScene 0x1D
@@ -40,3 +40,10 @@
 #define SeenCalvinClovisTalkConvo 0x22
 #define SeenDuncanEmersonTalkConvo 0x23
 #define SeenEkaitzNiravTalkConvo 0x24
+
+// Secondary talk conversation completion flags
+#define SeenDarinaEugeniaTalkConvo 0x25
+#define SeenCalvinDuncanTalkConvo 0x26
+#define SeenAleynaEkaitzTalkConvo 0x27
+#define SeenNiravClovisTalkConvo 0x28
+#define SeenEmersonSolineTalkConvo 0x67 // Out of temp flags, this is the first free global flag

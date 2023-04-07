@@ -27,3 +27,33 @@ EkaitzNiravTalking:
 Text(EkaitzNiravTalkConvo)
 NoFade
 ENDA
+
+ALIGN 4
+DarinaEugeniaTalking:
+Text(DarinaEugeniaTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+CalvinDuncanTalking:
+Text(CalvinDuncanTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+AleynaEkaitzTalking:
+Text(AleynaEkaitzTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+NiravClovisTalking:
+Text(NiravClovisTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+EmersonSolineTalking:
+Text(EmersonSolineTalkConvo)
+NoFade
+ENDA

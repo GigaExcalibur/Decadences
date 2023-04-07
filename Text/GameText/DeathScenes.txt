@@ -1,26 +1,103 @@
-## DarinaDeathScene
+## DarinaDeathQuote
 [MR][LoadDarina]
-[MR]Ah! Am dead.[A][X]
+[MR]Agh! I'm sorry, Father.[N]
+I failed you[Beat][A][X]
+
+## EugeniaDeathQuote
+[MR][LoadEugenia]
+[MR]I[Beat] didn't account for this[N]
+expense. I have to retreat.[A][X]
+
+## CalvinDeathQuote
+[MR][LoadCalvin]
+[MR]Ugh, I got careless. Can't[N]
+risk any more injuries now.[A][X]
+
+## AleynaDeathQuote
+[MR][LoadAleyna]
+[MR]Damn, this is gonna hurt[N]
+my reputation[Beat][A][X]
+
+## DuncanDeathQuote
+[MR][LoadDuncan]
+[MR]WHAT?! How could they[Beat][N]
+get the better of me?[A][X]
+
+## EkaitzDeathQuote
+[MR][LoadEkaitz]
+[MR]Hrk! I guess my luck's[N]
+finally run out[Beat][A][X]
+
+## NiravDeathQuote
+[MR][LoadNirav]
+[MR]Ha[Beat] ha ha ha! It hurts![N]
+What was this all for?![A][X]
+
+## ClovisDeathQuote
+[MR][LoadClovis]
+[MR]I must fall back. Can't afford[N]
+to be a burden any longer.[A][X]
+
+## EmersonDeathQuote
+[MR][LoadEmerson]
+[MR]No! I can't leave the battle[N]
+now! Not when I'm so close![A][X]
+
+## SolineDeathQuote
+[MR][LoadSoline]
+[MR]My, how strong the youth of[N]
+today are. I'm proud[Beat][A][X]
+
+## DarinaDeathScene
+[MR][LoadDarina][ML][LoadEugenia]
+[ML]DARINA! Pull yourself together![AN]
+I can't go on without you![AN]
+[MR]I'm sorry, Gene. I couldn't be the[N]
+lord you always thought I was.[AN]
+Everything I have, I now give[N]
+to you. Goodbye[Beat][A][X]
 
 ## EugeniaDeathScene
-[MR][LoadEugenia]
-[MR]Ah! Am dead.[A][X]
+[MR][LoadEugenia][ML][LoadDarina]
+[ML]Eugenia! Are you alright?![AN]
+Fall back now, I beg you![AN]
+[MR]Heh. To think, you'd be the[N]
+one worrying over my safety.[AN]
+Very well, I'll fall back now.[AN]
+Don't die, understand me?[A][X]
 
 ## CalvinDeathScene
-[MR][LoadCalvin]
-[MR]Ah! Am dead.[A][X]
+[MR][LoadCalvin][ML][LoadDuncan]
+[ML]Well, well. Couldn't hack it, huh?[AN]
+Fall back, Calvin. That's an order.[AN]
+[MR]Damn your orders! I still[N]
+have things I have to do.[AN]
+I'll just[Beat] take a quick[N]
+breather for a little bit.[A][X]
 
 ## AleynaDeathScene
-[MR][LoadAleyna]
-[MR]Ah! Am dead.[A][X]
+[MR][LoadAleyna][ML][LoadEugenia]
+[MR]Eugenia. I failed in my duty.[AN]
+[ML]How disappointing. Regardless,[N]
+your orders are now to retreat.[AN]
+We can discuss your further[N]
+contract after the battle.[AN]
+Still, I'm grateful you're alive.[A][X]
 
 ## DuncanDeathScene
-[MR][LoadDuncan]
-[MR]Ah! Am dead.[A][X]
+[MR][LoadDuncan][ML][LoadDarina]
+[ML]Duncan! You're bleeding out![AN]
+[MR]Like hell I am! You really think a[N]
+flesh wound like this can stop me?![AN]
+Oh, it's been much too long since[N]
+I've felt pain like this.[AN]
+Hah[Beat] hah[Beat] more! Give me MORE![A][X]
 
 ## EkaitzDeathScene
-[MR][LoadEkaitz]
-[MR]Ah! Am dead.[A][X]
+[MR][LoadEkaitz][ML][LoadAleyna]
+[ML]Ekaitz. You bit off more[N]
+than you could chew.[AN]
+[MR]Well that's news to me, Boss.[A][X]
 
 ## NiravDeathScene
 [MR][LoadNirav]

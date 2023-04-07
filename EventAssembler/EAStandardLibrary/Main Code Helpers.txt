@@ -49,6 +49,7 @@
 #define CharacterEvent(eventID,pointer,char1,char2) "CHAR eventID pointer [char1,char2] 0"
 #define CharacterEvent(eventID,pointer,char1,char2,afterID) "CHAR eventID pointer [char1,char2] 3+afterID*0x10000"
 #define CharacterEventBothWays(eventID,eventPtr,char1,char2) "CHAR eventID eventPtr [char1,char2] 0; CHAR eventID eventPtr [char2,char1] 0"
+#define CharacterEventBothWays(eventID,eventPtr,char1,char2,afterID) "CHAR eventID eventPtr [char1,char2] 3+afterID*0x10000; CHAR eventID eventPtr [char2,char1] 3+afterID*0x10000"
 #endif
 
 

@@ -35,11 +35,19 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+// Initial talk conversations
 CharacterEventBothWays(SeenDarinaSolineTalkConvo, DarinaSolineTalking, Darina, Soline)
 CharacterEventBothWays(SeenEugeniaAleynaTalkConvo, EugeniaAleynaTalking, Eugenia, Aleyna)
 CharacterEventBothWays(SeenCalvinClovisTalkConvo, CalvinClovisTalking, Calvin, Clovis)
 CharacterEventBothWays(SeenDuncanEmersonTalkConvo, DuncanEmersonTalking, Duncan, Emerson)
 CharacterEventBothWays(SeenEkaitzNiravTalkConvo, EkaitzNiravTalking, Ekaitz, Nirav)
+
+// Secondary talk conversations
+CharacterEventBothWays(SeenDarinaEugeniaTalkConvo, DarinaEugeniaTalking, Darina, Eugenia, SeenEugeniaAleynaTalkConvo)
+CharacterEventBothWays(SeenCalvinDuncanTalkConvo, CalvinDuncanTalking, Calvin, Duncan, SeenCalvinClovisTalkConvo)
+CharacterEventBothWays(SeenAleynaEkaitzTalkConvo, AleynaEkaitzTalking, Aleyna, Ekaitz, SeenEkaitzNiravTalkConvo)
+CharacterEventBothWays(SeenNiravClovisTalkConvo, NiravClovisTalking, Nirav, Clovis, SeenEkaitzNiravTalkConvo)
+CharacterEventBothWays(SeenEmersonSolineTalkConvo, EmersonSolineTalking, Emerson, Soline, SeenDarinaSolineTalkConvo)
 
 END_MAIN
 
@@ -112,18 +120,8 @@ ENDTRAP
 ALIGN 4
 BeginningScene:
 LOAD1 0x0 PlayableUnits //0x0 instead of 0x1 seems to be for allies on maps with prep screens
-LOAD1 0x0 TestingEnemy
+// LOAD1 0x0 TestingEnemy
 ENUN
-// FADI 10
-// MOVE 0 Carlyle [7,10]
-// ENUN
-//   StartBattle //scripted fight setup
-//   MissedAttack(0,0) //Seth misses
-//   NormalDamage(1,0) //Valter hits
-//   EndAttack
-// FIG1 Carlyle Aias 0
-// STAL 60
-// FADU 10
 GotoPrepScreen
 
 ALIGN 4
@@ -139,4 +137,4 @@ ENDA
 
 #include "DeathScenes.event"
 
-#include "InitialTalkConvos.event"
+#include "TalkConvos.event"
