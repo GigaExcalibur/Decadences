@@ -1,15 +1,26 @@
-#define Darina 0x1
-#define Eugenia 0x2
-#define Calvin 0x3
-#define Aleyna 0x4
-#define Duncan 0x5
-#define Ekaitz 0x6
-#define Nirav 0x7
-#define Clovis 0x8
-#define Emerson 0x9
-#define Soline 0xA
+// Playable units
+#define Darina 0x01
+#define Eugenia 0x02
+#define Calvin 0x03
+#define Aleyna 0x04
+#define Duncan 0x05
+#define Ekaitz 0x06
+#define Nirav 0x07
+#define Clovis 0x08
+#define Emerson 0x09
+#define Soline 0x0A
 #define Laurette 0x3F
 
+// Enemy units
+#define Commander1 0x0B
+#define Commander2 0x0C
+#define Ava 0x0D
+#define Generic1 0x0E
+#define Generic2 0x0F
+#define Profiteer 0x10
+#define Scavenger 0x11
+
+// Exclusive classes
 #define Trickster 0x54
 #define Spellstrider 0x55
 #define Whisper 0x56

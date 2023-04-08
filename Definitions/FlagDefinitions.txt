@@ -47,3 +47,10 @@
 #define SeenAleynaEkaitzTalkConvo 0x27
 #define SeenNiravClovisTalkConvo 0x28
 #define SeenEmersonSolineTalkConvo 0x67 // Out of temp flags, this is the first free global flag
+
+// Tertiary talk conversation complex flags
+#define SeenDarinaAleynaTalkConvo 0x68
+#define SeenEugeniaCalvinTalkConvo 0x69
+#define SeenDuncanNiravTalkConvo 0x6A
+#define SeenEkaitzEmersonTalkConvo 0x6B
+#define SeenClovisSolineTalkConvo 0x6C

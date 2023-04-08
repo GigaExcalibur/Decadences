@@ -15,7 +15,7 @@ setText(0x160, NewChName)
 
 ALIGN 4
 NewChName:
-String("Boss Rush")
+String("Siege of Transigent Castle")
 BYTE 0
 
 ALIGN 4
@@ -49,12 +49,19 @@ CharacterEventBothWays(SeenAleynaEkaitzTalkConvo, AleynaEkaitzTalking, Aleyna, E
 CharacterEventBothWays(SeenNiravClovisTalkConvo, NiravClovisTalking, Nirav, Clovis, SeenEkaitzNiravTalkConvo)
 CharacterEventBothWays(SeenEmersonSolineTalkConvo, EmersonSolineTalking, Emerson, Soline, SeenDarinaSolineTalkConvo)
 
+// Tertiary talk conversations
+CharacterEventBothWays(SeenDarinaAleynaTalkConvo, DarinaAleynaTalking, Darina, Aleyna, SeenDarinaEugeniaTalkConvo)
+CharacterEventBothWays(SeenEugeniaCalvinTalkConvo, EugeniaCalvinTalking, Eugenia, Calvin, SeenCalvinDuncanTalkConvo)
+CharacterEventBothWays(SeenDuncanNiravTalkConvo, DuncanNiravTalking, Duncan, Nirav, SeenNiravClovisTalkConvo)
+CharacterEventBothWays(SeenEkaitzEmersonTalkConvo, EkaitzEmersonTalking, Ekaitz, Emerson, SeenDuncanEmersonTalkConvo)
+CharacterEventBothWays(SeenClovisSolineTalkConvo, ClovisSolineTalking, Clovis, Soline, SeenEmersonSolineTalkConvo)
 END_MAIN
 
 LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
+// Death scenes
 CauseGameOverIfLordDies
 AFEV SeenDarinaDeathScene DarinaDies DarinaDeathFlag
 AFEV SeenEugeniaDeathScene EugeniaDies EugeniaDeathFlag
@@ -70,6 +77,7 @@ AFEV SeenSolineDeathScene SolineDies SolineDeathFlag
 END_MAIN
 
 Dunno1:
+// Selection quotes
 AFEV SeenDarinaSelectionQuote DarinaSelect 0
 AFEV SeenEugeniaSelectionQuote EugeniaSelect 0
 AFEV SeenCalvinSelectionQuote CalvinSelect 0
@@ -80,7 +88,6 @@ AFEV SeenNiravSelectionQuote NiravSelect 0
 AFEV SeenClovisSelectionQuote ClovisSelect 0
 AFEV SeenEmersonSelectionQuote EmersonSelect 0
 AFEV SeenSolineSelectionQuote SolineSelect 0
-
 END_MAIN
 
 Dunno2:
@@ -105,6 +112,7 @@ UNIT Emerson Squire Darina Level(1, Ally, 0) [5,8] 0b 0x0 0x0 0x0 [IronLance, Ir
 UNIT Soline Conjurer Darina Level(14, Ally, 0)  [1,1] 0b 0x0 0x0 0x0 [Fire, KnightCrest, Void, 0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
+// This enemy only exists to test death scenes
 TestingEnemy:
 UNIT 0x66 Berserker 0x66 Level(1, Enemy, 1) [7, 7] 0b 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
 UNIT

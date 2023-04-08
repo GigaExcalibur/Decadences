@@ -45,7 +45,7 @@ Flirtatious by his very nature.[X]
 
 ## AleynaDesc
 Merc captain contracted by Eugenia.[N]
-Only cares for gold in this world.[X]
+Only care in the world is gold.[X]
 
 ## DuncanDesc
 Former retainer to Lord Vacille.[N]
