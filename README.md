@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Friday, 4-7
+- Miscellaneous text revision
+- Tetiary talk conversations
+- I'm going to be seeing `CharacterEventBothWays` in my nightmares.
+
 ## Wednesday, 4-5 and Thursday, 4-6
 - Laptop died on me on Wednesday so I couldn't do a devlog.
 - Regardless I just began secondary talk convos.
