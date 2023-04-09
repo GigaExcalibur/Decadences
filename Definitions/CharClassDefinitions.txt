@@ -12,11 +12,11 @@
 #define Laurette 0x3F
 
 // Enemy units
-#define Commander1 0x0B
-#define Commander2 0x0C
+#define Maximilia 0x0B
+#define Samuli 0x0C
 #define Ava 0x0D
-#define Generic1 0x0E
-#define Generic2 0x0F
+#define Clarvoan 0x0E
+#define Mogusan 0x0F
 #define Profiteer 0x10
 #define Scavenger 0x11
 

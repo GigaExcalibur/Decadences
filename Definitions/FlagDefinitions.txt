@@ -1,4 +1,4 @@
-// Seen selection quote completion flags
+// Selection quote completion flags
 #define SeenDarinaSelectionQuote 0x01
 #define SeenEugeniaSelectionQuote 0x02
 #define SeenCalvinSelectionQuote 0x05
@@ -10,7 +10,7 @@
 #define SeenEmersonSelectionQuote 0x0C
 #define SeenSolineSelectionQuote 0x0D
 
-// Death flags
+// Player Death flags
 #define DarinaDeathFlag 0x0E
 #define EugeniaDeathFlag 0x0F
 #define CalvinDeathFlag 0x10
@@ -22,7 +22,7 @@
 #define EmersonDeathFlag 0x16
 #define SolineDeathFlag 0x17
 
-// Seen death scene completion flags
+// Player death scene completion flags
 #define SeenDarinaDeathScene 0x65 // Global flag for game over
 #define SeenEugeniaDeathScene 0x18
 #define SeenCalvinDeathScene 0x19
@@ -54,3 +54,22 @@
 #define SeenDuncanNiravTalkConvo 0x6A
 #define SeenEkaitzEmersonTalkConvo 0x6B
 #define SeenClovisSolineTalkConvo 0x6C
+
+// Battle quotes completion flags
+#define SeenDarinaMaximiliaBattleConvo 0x6D
+#define SeenEugeniaAvaBattleConvo 0x6E
+#define SeenCalvinAvaBattleConvo 0x6F
+#define SeenAleynaMaximiliaBattleConvo 0x70
+#define SeenDuncanSamuliBattleConvo 0x71
+#define SeenEkaitzAvaBattleConvo 0x72
+#define SeenNiravSamuliBattleConvo 0x73
+#define SeenEmersonSamuliBattleConvo 0x75
+#define SeenSolineMaximiliaBattleConvo 0x76
+
+// Enemy Death Flags and Death Scene Completion Flags
+#define MaximiliaDeathFlag 0x77
+#define SamuliDeathFlag 0x78
+#define AvaDeathFlag 0x79
+#define SeenMaximiliaDeathScene 0x7A
+#define SeenSamuliDeathScene 0x7B
+#define SeenAvaDeathScene 0x12B // Global flag for Ekaitz's good ending
