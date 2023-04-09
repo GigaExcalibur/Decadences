@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Saturday, 4-8
+- Named antagonist kingdoms and commanders. Really, this should've been done week one.
+- Wrote C that reduces exp gain on hard mode, which isn't relevant to Decadences but was great practice.
+- We're a week out from the deadline, time to go pedal to the metal.
+
 ## Friday, 4-7
 - Miscellaneous text revision
 - Tetiary talk conversations
