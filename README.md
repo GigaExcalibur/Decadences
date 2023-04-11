@@ -4,6 +4,12 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Sunday, 4-9 and Monday, 4-10
+- SET UP LORD SPLIT MENU
+- Finally, finally began work on enemy placement
+- Wrote character endings
+- Finished selection quotes
+
 ## Saturday, 4-8
 - Named antagonist kingdoms and commanders. Really, this should've been done week one.
 - Wrote C that reduces exp gain on hard mode, which isn't relevant to Decadences but was great practice.
