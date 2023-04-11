@@ -1,2 +1,23 @@
-## OpeningSequence
-[Load
+## SideWithClarvoChoice
+Fulfill your duty to Clarvo[X]
+
+## SideWithMogusChoice
+Acquisce to the Mogusans[X]
+
+## HearMoreInformationChoice
+Hear more information[X]
+
+## SideWithNeitherChoice
+Side with neither[X]
+
+## SideWithClarvoText
+[MR][LoadEugenia]
+[MR]WRONG.[A][X]
+
+## SideWithMogusText
+[MR][LoadDuncan]
+[MR]WRONG.[A][X]
+
+## HearMoreInformationText
+[MR][LoadCalvin]
+[MR]CORRECT.[A][X]

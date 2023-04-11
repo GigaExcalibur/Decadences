@@ -1,0 +1,95 @@
+## DarinaIndignantLord
+Darina, Indignant Lord[X]
+
+## DarinaClarvoEnding
+The territory surrounding Transigent Castle[N]
+was held by the kingdom of Clarvo when the[N]
+skirmish ended. Darina, lacking influence[N]
+within the Clarvoan court, was stripped of[N]
+her lordship and House Vacille was dissolved.[X]
+
+## DarinaMogusEnding
+The territory surrounding Transigent Castle[N]
+was claimed by the kingdom of Mogus when the[N]
+skirmish ended. Darina, too weak to hold her[N]
+land in the eyes of the Mogusans, lost both it[N]
+and her life in a violent struggle years later.[X]
+
+## DarinaGoodEnding
+Darina took advantage of the skirmish between[N]
+Clarvo and Mogus to grant independence to her[N]
+territory. She guaranteed protections for her[N]
+house and her citizens, and her legacy as strong[N]
+and decisive was maintained for generations.[X]
+
+## EugeniaFloweryAdvisor
+Eugenia, Flowery Advisor[X]
+
+## EugeniaEnding
+Eugenia continued to support Darina in her[N]
+endeavors. In the end, when Eugenia herself[N]
+became part of House Vacille's legacy, it[N]
+was for her unending devotion to Darina[N]
+rather than any bureaucratic efforts.[X]
+
+## CalvinMaskedRose
+Calvin, Masked Rose[X]
+
+## CalvinBadEnding
+Calvin remained working as a spy for[N]
+House Vacille.
+
+## CalvinGoodEnding
+Calvin sold the Sacred Treasures he[N]
+acquired for a colossal sum of gold,[N]
+and he and Clovis never had to work[N]
+a day again in their lives. As such,[N]
+Calvin became a stay-at-home husband.[X]
+
+## AleynaResentmentHero
+Aleyna, Resentment Hero[X]
+
+## AleynaBadEnding
+Aleyna's company left after fulfilling[N]
+their contract with House Vacille.[N]
+Although they enjoyed slight fame for a[N]
+short time, they eventually returned[N]
+to their ordinary, unremarkable lives.[X]
+
+## AleynaGoodEnding
+Aleyna rekindled her love for Duncan,[N]
+and the two of them entered a passionate[N]
+relationship once again. She continued[N]
+working as a mercenary captain, constantly[N]
+bombarded with new recruits.[X]
+
+## DuncanBlessedWarrior
+Duncan, Blessed Warrior[X]
+
+## DuncanBadEnding
+Duncan continued serving as a retainer[N]
+and bodyguard to Lord Vacille. Later[N]
+in life, when his muscles had stiffened[N]
+and his reflexes slowed, he died painfully[N]
+in battle against en enemy soldier.[X]
+
+## DuncanGoodEnding
+After suffering an injury in the decisive[N]
+battle, Duncan was forced to retire early.[N]
+Reflecting on his life, he came to the[N]
+conclusion that his purpose in life was not[N]
+to die in battle, but enjoy it to the fullest.[X]
+
+## EkaitzBadEnding
+Loan sharks eventually caught up to[N]
+Ekaitz, forcing them to abandon Aleyna's[N]
+Mercenaries. People say their latest[N]
+time faking their death was much more[N]
+...conclusive.[X]
+
+## EkaitzGoodEnding
+With his biggest debtor killed, Ekaitz[N]
+no longer[X]
+
+## NiravBadEnding
+[X]

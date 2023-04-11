@@ -73,3 +73,9 @@
 #define SeenMaximiliaDeathScene 0x7A
 #define SeenSamuliDeathScene 0x7B
 #define SeenAvaDeathScene 0x12B // Global flag for Ekaitz's good ending
+
+// Mode, all of these will determine Darina and Soline's endings
+#define SidedWithClarvo 0x7C
+#define SidedWithMogus 0x7D
+#define SidedWithNeither 0x7E
+

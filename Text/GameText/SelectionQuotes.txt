@@ -1,45 +1,81 @@
 ## DarinaSelectionQuote
-[BoxHeight][0x3]
 [MR][LoadDarina]
-[MR]Deep breaths, Darina.[A][X]
+[MR]Hoo. Okay. Deep breaths, Darina.[N]
+Remember what Father taught you.[AN]
+[OpenQuote]You will be the lord of this House,[N]
+and everyone will follow your command.[AN]
+That is precisely why you cannot skip[N]
+your daily lectures to smoke ma-[CloseQuote][AN]
+Wait, this isn't Father's teaching![AN]
+This was him scolding me![A][X]
 
 ## EugeniaSelectionQuote
 [MR][LoadEugenia]
-[MR]Hoo. Okay.[A][X]
+[MR]Command me as you see fit, Dar. Every[N]
+unit here is a resource for you to use.[AN]
+My family has invested in your rule, and[N]
+I have every confidence you'll succeed.[AN]
+If to that extent I must crack a few[N]
+skulls, consider that business expense.[A][X]
 
 ## CalvinSelectionQuote
 [MR][LoadCalvin]
-[MR]Hoo. Okay.[A][X]
+[MR]Yo, milord! How's it hanging? Gonna have[N]
+to ask you keep me off the front lines.[AN]
+Glass bones and paper skin, and all that.[AN]
+But don't worry, my knife'll do all the[N]
+heavy lifting in this battle. Trust me.[A][X]
 
 ## AleynaSelectionQuote
 [MR][LoadAleyna]
-[MR]Hoo. Okay.[A][X]
+[MR][Beat]Don't look at me like that.[N]
+I'm not the enemy.[A][X]
 
 ## DuncanSelectionQuote
 [MR][LoadDuncan]
-[MR]Hoo. Okay.[A][X]
+[MR]Lord Darina, are you fully prepared?[N]
+A battle cannot be commiserated until[N]
+the commander has given their blessing.[AN]
+Your father was quite adept at that.[AN]
+When you are ready, point me at the enemy.[AN]
+I'll slaughter them like the pigs they are![A][X]
 
 ## EkaitzSelectionQuote
 [BoxHeight][0x3]
 [MR][LoadEkaitz]
-[ML][LoadNirav]
-[MR]Do what you gotta do. Steal a dead body,[N]
-set fire to an abandoned shed you were[N]
-squatting in, fake your own death... twice.[AN]
-[ML]What the fuck are you talking about.[A][X]
+[MR]Nice to meetcha, lordie. I'm on your side.[AN]
+Oh hey, I see you dabble in archery too.[AN]
+What say we make a bet? Which of us can[N]
+kill more enemies in this battle?[AN]
+Loser has to cough up 500000 gold. Swear[N]
+on my own grave I can afford it I lose.[A][X]
 
 ## NiravSelectionQuote
 [MR][LoadNirav]
-[MR]Hoo. Okay.[A][X]
+[MR][Beat]Ah, milord. Do you need something?[AN]
+Please tell me you don't need something.[AN]
+I'm always here if you need me, though,[N]
+as a[Beat] kindred spirit, if it were.[AN]
+Look, just leave me alone and let me do[N]
+my job. Can't fight knowing you're watching.[A][X]
 
 ## ClovisSelectionQuote
 [MR][LoadClovis]
-[MR]Hoo. Okay.[A][X]
+[MR]Lord Vacille! It is an honor and a[N]
+privilege to fight by your side.[AN]
+You may remember me: my name is[N]
+Clovis Lucian, priest of the town.[AN]
+Rely on me for any relief you need.[A][X]
 
 ## EmersonSelectionQuote
 [MR][LoadEmerson]
-[MR]Hoo. Okay.[A][X]
+[MR]I hope you don't mind if I take[N]
+the battlefield as well, milord.[AN]
+I may be young, but you need all[N]
+hands on deck right now.[AN]
+On the honor of my parents, I[N]
+swear to fight my very best![A][X]
 
 ## SolineSelectionQuote
 [MR][LoadSoline]
-[MR]Hoo. Okay.[A][X]
+[MR][Beat][A][X]

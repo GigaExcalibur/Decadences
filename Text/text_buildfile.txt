@@ -20,3 +20,9 @@
 #include "GameText/InitialTalkConvos.txt"
 
 #include "GameText/SecondaryTalkConvos.txt"
+
+#include "GameText/TertiaryTalkConvos.txt"
+
+#include "GameText/Endings.txt"
+
+#include "GameText/PreChapterText.txt"

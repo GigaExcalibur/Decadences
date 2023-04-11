@@ -57,3 +57,33 @@ EmersonSolineTalking:
 Text(EmersonSolineTalkConvo)
 NoFade
 ENDA
+
+ALIGN 4
+DarinaAleynaTalking:
+Text(DarinaAleynaTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+EugeniaCalvinTalking:
+Text(EugeniaCalvinTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+DuncanNiravTalking:
+Text(DuncanNiravTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+EkaitzEmersonTalking:
+Text(EkaitzEmersonTalkConvo)
+NoFade
+ENDA
+
+ALIGN 4
+ClovisSolineTalking:
+Text(ClovisSolineTalkConvo)
+NoFade
+ENDA

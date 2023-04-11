@@ -77,3 +77,4 @@ POP
 #include "ExternalTables/PromotionTable.event"
 #include "ExternalTables/SupportsInstaller.event"
 #include "ExternalTables/CreatureCampaignUnits.event"
+#include "ExternalTables/SplitLordMenu.event"
