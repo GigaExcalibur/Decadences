@@ -33,7 +33,7 @@ I'm not the enemy.[A][X]
 
 ## DuncanSelectionQuote
 [MR][LoadDuncan]
-[MR]Lord Darina, are you fully prepared?[N]
+[MR]Lord Darina, are you fully prepared?[AN]
 A battle cannot be commiserated until[N]
 the commander has given their blessing.[AN]
 Your father was quite adept at that.[AN]
@@ -41,7 +41,6 @@ When you are ready, point me at the enemy.[AN]
 I'll slaughter them like the pigs they are![A][X]
 
 ## EkaitzSelectionQuote
-[BoxHeight][0x3]
 [MR][LoadEkaitz]
 [MR]Nice to meetcha, lordie. I'm on your side.[AN]
 Oh hey, I see you dabble in archery too.[AN]
@@ -56,8 +55,8 @@ on my own grave I can afford it I lose.[A][X]
 Please tell me you don't need something.[AN]
 I'm always here if you need me, though,[N]
 as a[Beat] kindred spirit, if it were.[AN]
-Look, just leave me alone and let me do[N]
-my job. Can't fight knowing you're watching.[A][X]
+Look, just leave me alone and let me do my[N]
+job. Can't fight knowing you're watching.[A][X]
 
 ## ClovisSelectionQuote
 [MR][LoadClovis]
@@ -77,5 +76,6 @@ On the honor of my parents, I[N]
 swear to fight my very best![A][X]
 
 ## SolineSelectionQuote
+[BoxHeight][0x1]
 [MR][LoadSoline]
 [MR][Beat][A][X]

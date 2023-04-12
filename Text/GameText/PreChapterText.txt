@@ -154,7 +154,7 @@ Mogusans are an honorable people.[AN]
 They fight for the freedom of others,[N]
 presupposed as it may be.[AN]
 If we side with them, it's likely[N]
-we'll [Red]receive additional soldiers[Red].[AN]
+we'll [Red]receive additional soldiers[Red].[A][X]
 
 ## SidedWithNeitherText
 [MR][LoadCalvin]

@@ -167,8 +167,8 @@ SVAL s2 0x2
 SVAL s3 0x3
 BEQ 1 s0 sC
 BEQ 2 s1 sC
-Text(HearMoreInformationText)
 LABEL 4
+Text(HearMoreInformationText)
 ASMC (prCallSecondChoiceMenu+1)
 BEQ 1 s0 sC
 BEQ 2 s1 sC
@@ -185,6 +185,7 @@ Text(SidedWithClarvoText)
 ENUT SidedWithClarvo
 LOAD1 1 InitialMogusanEnemies
 ENUN
+SupplyItem(Halberd)
 GOTO 3
 LABEL 2
 Text(SidedWithMogusText)
@@ -193,6 +194,7 @@ LOAD1 1 InitialClarvoanEnemies
 ENUN
 LOAD1 1 InitialMogusanNPCs
 ENUN
+SupplyItem(Horseslayer)
 LABEL 3
 Text(PreBattleText)
 REMOVEALL_BLUE
