@@ -259,3 +259,6 @@ POP
   
   //Awakening Style Durability
   #include "ExternalHacks\AwakeningStyleDurability\AwakeningStyleDurability.lyn.event"
+  
+  //Silently give item
+  #include "ExternalHacks\SilentlyGiveItem\Installer.event"
