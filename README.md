@@ -4,6 +4,11 @@ Hello everyone! This is the public buildfile for Fire Emblem: Decadences, my sub
 
 # Devlog, read at your own peril
 
+## Tuesday, 4-11
+- Miscellaneous text stuff
+- Got lord split menu functioning
+- Began writing pre-chapter text... finally.
+
 ## Sunday, 4-9 and Monday, 4-10
 - SET UP LORD SPLIT MENU
 - Finally, finally began work on enemy placement
