@@ -104,6 +104,7 @@ UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [IronBow, 
 UNIT Eugenia Spellstrider Darina Level(14, Ally, 0)  [14,2] 0b 0x0 0x0 0x0 [Refrain, IronDagger, SteelDagger, SilverDagger] [0x0,0x0,0x0,0x0]
 UNIT Calvin Whisper Darina Level(14, Ally, 0)  [6,3] 0b 0x0 0x0 0x0 [Infiltraitor, Kard, Stiletto, Peshkatz] [0x0,0x0,0x0,0x0]
 UNIT Duncan Varangian Darina Level(14, Ally, 0)  [16,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe, IronBow, Benediction] [0x0,0x0,0x0,0x0]
+UNIT
 
 PlayableUnits:
 UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [IronBow, SteelBow, Greatbow, 0x7C] [0x0,0x0,0x0,0x0]
@@ -129,7 +130,13 @@ UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [5, 9] 0b 0x0 0x0 0x0 [Sil
 UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [8, 9] 0b 0x0 0x0 0x0 [SilverSword, LightBrand] PursueWithoutHeedAI
 UNIT Clarvoan Sage_F Maximilia Level(14, Enemy, 0) [5, 11] 0b 0x0 0x0 0x0 [Thunder, Physic] PursueWithoutHeedAI
 UNIT Clarvoan Sage_F Maximilia Level(14, Enemy, 0) [8, 11] 0b 0x0 0x0 0x0 [Thunder, Physic] PursueWithoutHeedAI
-UNIT 
+UNIT
+
+InitialMogusanEnemies:
+UNIT
+
+InitialMogusanNPCs:
+UNIT
 
 // This enemy only exists to test death scenes
 TestingEnemy:
@@ -146,8 +153,14 @@ ENDTRAP
 
 ALIGN 4
 BeginningScene:
-LOAD1 1 CutsceneUnits
+LOAD2 1 CutsceneUnits
 ENUN
+// Pre-choice text goes here
+Text(OpeningText)
+TutorialText(MogusMissive)
+Text(PostMogusMissiveDialogue)
+TutorialText(ClarvoMissive)
+Text(PostClarvoMissiveDialogue)
 ASMC (prCallFirstChoiceMenu+1)
 SVAL s1 0x1
 SVAL s2 0x2
@@ -165,18 +178,26 @@ ENUT SidedWithNeither
 LOAD1 1 InitialClarvoanEnemies
 ENUN
 LOAD1 1 InitialMogusanEnemies
+ENUN
 GOTO 3
 LABEL 1
 Text(SidedWithClarvoText)
 ENUT SidedWithClarvo
 LOAD1 1 InitialMogusanEnemies
+ENUN
 GOTO 3
 LABEL 2
 Text(SidedWithMogusText)
 ENUT SidedWithMogus
 LOAD1 1 InitialClarvoanEnemies
+ENUN
 LOAD1 1 InitialMogusanNPCs
+ENUN
 LABEL 3
+Text(PreBattleText)
+REMOVEALL_BLUE
+LOAD1 1 PlayableUnits
+ENUN
 ENDA
 
 ALIGN 4

@@ -30,6 +30,7 @@
 #define FlashWhite "FAWI 0x20; STAL 0x10; FAWU 0x20"
 #define FlashBlack "FADI 0x20; STAL 0x10; FADU 0x20"
 #define ShowCG(BGIndex) "SVAL 0x2 BGIndex; REMOVEPORTRAITS; BACG 0xFFFF;"
+#define TutorialText(text) "TUTORIALTEXTBOXSTART; CenterTutorialTextBox; TEXTSHOW text; TEXTEND; REMA"
 #endif
 
 
