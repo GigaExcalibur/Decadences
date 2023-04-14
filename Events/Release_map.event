@@ -58,7 +58,7 @@ CharacterEventBothWays(SeenClovisSolineTalkConvo, ClovisSolineTalking, Clovis, S
 END_MAIN
 
 LocationBasedEvents:
-
+Chest(RubyStone, 16, 10)
 END_MAIN
 
 MiscBasedEvents:
@@ -74,6 +74,16 @@ AFEV SeenNiravDeathScene NiravDies NiravDeathFlag
 AFEV SeenClovisDeathScene ClovisDies ClovisDeathFlag
 AFEV SeenEmersonDeathScene EmersonDies EmersonDeathFlag
 AFEV SeenSolineDeathScene SolineDies SolineDeathFlag
+
+// Gem aquisition scenes
+AFEV SeenRubyGemAcquiredScene ClovisGetsRubyGem 0
+AFEV SeenRubyGemAcquiredScene CalvinGetsRubyGem 0
+AFEV SeenSapphireGemAcquiredScene CalvinGetsSapphireGem 0
+AFEV SeenSapphireGemAcquiredScene ClovisGetsSapphireGem 0
+AFEV SeenOnyxGemAcquiredScene CalvinGetsOnyxGem AvaDeathFlag
+AFEV SeenOnyxGemAcquiredScene ClovisGetsOnyxGem AvaDeathFlag
+AFEV SeenGoldGemAcquiredScene ClovisGetsGoldGem 0
+AFEV SeenThreeGemsInHandScene EnoughGemsAcquiredEvent 0
 END_MAIN
 
 Dunno1:
@@ -100,7 +110,7 @@ Tutorial:
 END_MAIN
 
 CutsceneUnits:
-UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [IronBow, SteelBow, Greatbow, 0x7C] [0x0,0x0,0x0,0x0]
+UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [Javelin, SteelBow, Greatbow, 0x7C] [0x0,0x0,0x0,0x0]
 UNIT Eugenia Spellstrider Darina Level(14, Ally, 0)  [14,2] 0b 0x0 0x0 0x0 [Refrain, IronDagger, SteelDagger, SilverDagger] [0x0,0x0,0x0,0x0]
 UNIT Calvin Whisper Darina Level(14, Ally, 0)  [6,3] 0b 0x0 0x0 0x0 [Infiltraitor, Kard, Stiletto, Peshkatz] [0x0,0x0,0x0,0x0]
 UNIT Duncan Varangian Darina Level(14, Ally, 0)  [16,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe, IronBow, Benediction] [0x0,0x0,0x0,0x0]
@@ -109,14 +119,14 @@ UNIT
 PlayableUnits:
 UNIT Darina Trickster Darina Level(14, Ally, 0) [15,1] 0b 0x0 0x0 0x0 [IronBow, SteelBow, Greatbow, 0x7C] [0x0,0x0,0x0,0x0]
 UNIT Eugenia Spellstrider Darina Level(14, Ally, 0)  [14,2] 0b 0x0 0x0 0x0 [Refrain, IronDagger, SteelDagger, SilverDagger] [0x0,0x0,0x0,0x0]
-UNIT Calvin Whisper Darina Level(14, Ally, 0)  [6,3] 0b 0x0 0x0 0x0 [Infiltraitor, Kard, Stiletto, Peshkatz] [0x0,0x0,0x0,0x0]
+UNIT Calvin Whisper Darina Level(14, Ally, 0)  [6,3] 0b 0x0 0x0 0x0 [Infiltraitor, ChestKey, Stiletto, Peshkatz] [0x0,0x0,0x0,0x0]
 UNIT Aleyna Veteran Darina Level(14, Ally, 0)  [1,1] 0b 0x0 0x0 0x0 [IronSword, IronAxe, HandAxe, Resentment] [0x0,0x0,0x0,0x0]
 UNIT Duncan Varangian Darina Level(14, Ally, 0)  [16,2] 0b 0x0 0x0 0x0 [IronAxe, HandAxe, IronBow, Benediction] [0x0,0x0,0x0,0x0]
 UNIT Ekaitz Skirmisher Darina Level(14, Ally, 0) [1,2] 0b 0x0 0x0 0x0 [IronLance, IronBow, Bewildering ,0x0] [0x0,0x0,0x0,0x0]
 UNIT Nirav Harrier Darina Level(14, Ally, 0) [2,1] 0b 0x0 0x0 0x0 [IronLance, Fire, SteelLance, Battleflag] [0x0,0x0,0x0,0x0]
 UNIT Clovis Saint Darina Level(14, Ally, 0)  [2,2] 0b 0x0 0x0 0x0 [Fire, Heal, Chosens, 0x0] [0x0,0x0,0x0,0x0]
 UNIT Emerson Squire Darina Level(1, Ally, 0) [2,3] 0b 0x0 0x0 0x0 [IronLance, IronSword, IronAxe, HandAxe] [0x0,0x0,0x0,0x0]
-UNIT Soline Conjurer Darina Level(14, Ally, 0)  [3,1] 0b 0x0 0x0 0x0 [Fire, KnightCrest, Void, 0x0] [0x0,0x0,0x0,0x0]
+UNIT Soline Conjurer Darina Level(14, Ally, 0)  [3,1] 0b 0x0 0x0 0x0 [RubyStone, SapphireStone, OnyxStone, GoldStone] [0x0,0x0,0x0,0x0]
 UNIT
 
 InitialClarvoanEnemies:
@@ -130,9 +140,19 @@ UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [5, 9] 0b 0x0 0x0 0x0 [Sil
 UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [8, 9] 0b 0x0 0x0 0x0 [SilverSword, LightBrand] PursueWithoutHeedAI
 UNIT Clarvoan Sage_F Maximilia Level(14, Enemy, 0) [5, 11] 0b 0x0 0x0 0x0 [Thunder, Physic] PursueWithoutHeedAI
 UNIT Clarvoan Sage_F Maximilia Level(14, Enemy, 0) [8, 11] 0b 0x0 0x0 0x0 [Thunder, Physic] PursueWithoutHeedAI
+UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [4, 20] 0b 0x0 0x0 0x0 [SilverLance, LightBrand] PursueWithoutHeedAI
+UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [3, 19] 0b 0x0 0x0 0x0 [SilverSword, Spear] PursueWithoutHeedAI
+UNIT Clarvoan Paladin_F Maximilia Level(14, Enemy, 0) [2, 18] 0b 0x0 0x0 0x0 [SilverLance, LightBrand] PursueWithoutHeedAI
 UNIT
 
 InitialMogusanEnemies:
+UNIT Samuli Berserker Samuli Level(14, Enemy, 0) [15, 20] 0b 0x0 0x0 0x0 [Tomahawk] PursueWithoutHeedAI
+UNIT Mogusan Swordmaster Samuli Level(14, Enemy, 0) [14, 18] 0b 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Mogusan Swordmaster Samuli Level(14, Enemy, 0) [13, 19] 0b 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Mogusan Swordmaster Samuli Level(14, Enemy, 0) [12, 20] 0b 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Mogusan GreatKnight_F Samuli Level(14, Enemy, 0) [4, 11] 0b 0x0 0x0 0x0 [SilverAxe, Spear] PursueWithoutHeedAI
+UNIT Mogusan GreatKnight_F Samuli Level(14, Enemy, 0) [3, 4] 0b 0x0 0x0 0x0 [SilverLance, LightBrand] PursueWithoutHeedAI
+UNIT Mogusan GreatKnight_F Samuli Level(14, Enemy, 0) [8, 4] 0b 0x0 0x0 0x0 [SilverSword, Tomahawk] PursueWithoutHeedAI
 UNIT
 
 InitialMogusanNPCs:
@@ -156,6 +176,7 @@ BeginningScene:
 LOAD2 1 CutsceneUnits
 ENUN
 // Pre-choice text goes here
+EVBIT_MODIFY 3
 Text(OpeningText)
 TutorialText(MogusMissive)
 Text(PostMogusMissiveDialogue)
@@ -196,16 +217,15 @@ LOAD1 1 InitialMogusanNPCs
 ENUN
 SupplyItem(Horseslayer)
 LABEL 3
-Text(PreBattleText)
 REMOVEALL_BLUE
 LOAD1 1 PlayableUnits
 ENUN
-ENDA
+GotoPrepScreen
 
 ALIGN 4
 EndingScene:
-ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
-STAL 120
+GOTO_EPILOGUE
+
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
@@ -216,3 +236,5 @@ ENDA
 #include "DeathScenes.event"
 
 #include "TalkConvos.event"
+
+#include "AcquireGems.event"

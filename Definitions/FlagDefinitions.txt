@@ -79,3 +79,11 @@
 #define SidedWithMogus 0x7D
 #define SidedWithNeither 0x7E
 
+// Gem Acquisition status
+#define SeenRubyGemAcquiredScene 0x8B
+#define SeenSapphireGemAcquiredScene 0x8C
+#define SeenOnyxGemAcquiredScene 0x8D
+#define SeenGoldGemAcquiredScene 0x8E
+#define ThreeGemsInHand 0x8F
+#define SeenThreeGemsInHandScene 0x90
+#define ThreeGemsInHandAtEnd 0x12A // Global flag for Calvin and Clovis' good ending

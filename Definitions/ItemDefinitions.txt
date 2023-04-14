@@ -7,7 +7,7 @@
 #define Peshkatz 0x44
 
 #define RubyStone 0x76
-#define SapphireStone 0x77
+#define SapphireStone 0x75
 #define OnyxStone 0xba
 #define GoldStone 0xbb
 
@@ -15,7 +15,7 @@
 #define Greatbow 0xbd
 #define Refrain 0xbe
 #define Infiltraitor 0xbf
-#define Resentment 0xc0
+#define Resentment 0x11
 #define Benediction 0xc1
 #define Bewildering 0xc2
 #define Battleflag 0xc3

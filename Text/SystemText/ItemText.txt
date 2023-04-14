@@ -38,14 +38,13 @@ Negates 50% enemy defense.[X]
 Leviathan Greatbow[X]
 
 ## GreatbowDesc
-[LockIcon]Darina. Extended attack range.[X]
+[LockIcon]Darina. Extended range.[X]
 
 ## RefrainName
 Windy Refrain[X]
 
 ## RefrainDesc
-[LockIcon]Eugenia. Pushes foe back[N]
-one space after combat.[X]
+[LockIcon]Eugenia. Pushes foe back.[X]
 
 ## InfiltraitorName
 Infiltraitor[X]
@@ -57,7 +56,7 @@ Infiltraitor[X]
 Resentment[X]
 
 ## ResentmentDesc
-[LockIcon]Aleyna. Increased crit rate.[X]
+[LockIcon]Aleyna. Drains enemy HP.[X]
 
 ## BenedictionName
 Benediction[X]
@@ -69,7 +68,7 @@ Benediction[X]
 Bewildering Grace[X]
 
 ## BewilderingDesc
-[LockIcon]Ekaitz. (31-Luck)% chance to backfire.[X]
+[LockIcon]Ekaitz. (31-LCK) backfire%.[X]
 
 ## BattleflagName
 Battleflag[X]
@@ -90,29 +89,29 @@ Void[X]
 [LockIcon]Soline. Halves foe HP.[X]
 
 ## RubyStoneName
-Ruby Stone[X]
+Ruby Gem[X]
 
 ## RubyStoneDesc
-A Sacred Treasure that glitters like the[N]
-dawn. One of the keys to Calvin's freedom.[X]
+One of the Sacred Treasures[N]
+that glitters like the dawn.[X]
 
 ## SapphireStoneName
-Sapphire Stone[X]
+Sapphire Gem[X]
 
 ## SapphireStoneDesc
-A Sacred Treasure that glitters like the[N]
-dusk. One of the keys to Calvin's freedom.[X]
+One of the Sacred Treasures[N]
+that glitters like the dusk.[X]
 
 ## OnyxStoneName
-Onyx Stone[X]
+Onyx Gem[X]
 
 ## OnyxStoneDesc
-A Sacred Treasure that glitters like the[N]
-night. One of the keys to Calvin's freedom.[X]
+One of the Sacred Treasures[N]
+that glitters like the night.[X]
 
 ## GoldStoneName
-Gold Stone[X]
+Gold Gem[X]
 
 ## GoldStoneDesc
-A Sacred Treasure that glitters like the[N]
-day. One of the keys to Calvin's freedom.[X]
+One of the Sacred Treasures[N]
+that glitters like the day.[X]

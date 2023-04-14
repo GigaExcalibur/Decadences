@@ -31,6 +31,27 @@ Soline[X]
 ## LauretteName
 Laurette?[X]
 
+## MaximiliaName
+Maximilia[X]
+
+## SamuliName
+Samuli[X]
+
+## AvaName
+Ava[X]
+
+## ClarvoanName
+Clarvoan[X]
+
+## MogusanName
+Mogusan[X]
+
+## ProfiteerName
+Profiteer[X]
+
+## ScavengerName
+Scavenger[X]
+
 ## DarinaDesc
 Newly crowned lord of House Vacille.[N]
 Indecisive to the point of ignobility.[X]
@@ -74,6 +95,34 @@ was concealed by House Vacille.[X]
 ## LauretteDesc
 The conjured corpse of a young woman.[N]
 Lacks all memories of her prior life.[X]
+
+## MaximiliaDesc
+High commander of the Clarvo military.[N]
+In love with the sound of her voice.[X]
+
+## SamuliDesc
+High commander of the Mogus military.[N]
+Believe in his cause's righteousness.[X]
+
+## AvaDesc
+Infamous war profiteer. Will commit[N]
+atrocity in exchange for gold.[X]
+
+## ClarvoanDesc
+A generic and unremarkable soldier[N]
+in the Clarvoan military.[X]
+
+## MogusanDesc
+A generic and unremarkable soldier[N]
+in the Mogusan military.[X]
+
+## ProfiteerDesc
+Faceless hired muscle hired to[N]
+act as Ava's bodyguards.[X]
+
+## ScavengerDesc
+Bottom feeders who use the chaos[N]
+of battle to plunder booty.[X]
 
 ## TricksterName
 Trickster[X]

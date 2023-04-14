@@ -38,6 +38,15 @@
 #define sC $C
 #define sD $D
 
+#define c0 0
+#define c1 1
+#define c2 2
+#define c3 3
+#define c4 4
+#define c5 5
+#define c6 6
+#define c7 7
+
 #define ActiveUnit (-1)
 #define UnitAtCoordsSlotB (-2)
 #define UnitInSlot2 (-3)

@@ -26,3 +26,7 @@
 #include "GameText/Endings.txt"
 
 #include "GameText/PreChapterText.txt"
+
+#include "GameText/GemsAcquired.txt"
+
+#include "GameText/MiscEnding.txt"
