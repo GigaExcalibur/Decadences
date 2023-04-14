@@ -1,0 +1,104 @@
+ALIGN 4
+CalvinGetsRubyGem:
+CheckHasItem(Calvin, RubyStone) // *Supposed* to return 0 in sC if Calvin doesn't have the Ruby Gem in his inventory.
+BEQ 1 s0 sC // Branches to label 1 
+Text(RubyGemAcquiredCalvin)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenRubyGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+ClovisGetsRubyGem:
+CheckHasItem(Clovis, RubyStone)
+BEQ 1 s0 sC
+Text(RubyGemAcquiredClovis)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenRubyGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+CalvinGetsSapphireGem:
+CheckHasItem(Calvin, SapphireStone)
+BEQ 1 s0 sC
+Text(SapphireGemAcquiredCalvin)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenSapphireGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+ClovisGetsSapphireGem:
+CheckHasItem(Clovis, SapphireStone)
+BEQ 1 s0 sC
+Text(SapphireGemAcquiredClovis)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenSapphireGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+CalvinGetsOnyxGem:
+CheckHasItem(Calvin, OnyxStone)
+BEQ 1 s0 sC
+Text(OnyxGemAcquiredCalvin)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenOnyxGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+ClovisGetsOnyxGem:
+CheckHasItem(Clovis, OnyxStone)
+BEQ 1 s0 sC
+Text(OnyxGemAcquiredClovis)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenOnyxGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+ClovisGetsGoldGem:
+CheckHasItem(Clovis, Chosens)
+BNE 1 s0 sC
+SilentGiveItem(Clovis, GoldStone)
+Text(GoldGemAcquired)
+COUNTER_INC c7
+GOTO 2
+LABEL 1
+ENUF SeenGoldGemAcquiredScene
+LABEL 2
+NoFade
+ENDA
+
+ALIGN 4
+EnoughGemsAcquiredEvent:
+SVAL s1 0x3
+COUNTER_CHECK c7
+BLT 1 sC s1
+Text(EnoughGemsAcquired)
+GOTO 2
+LABEL 1
+ENUF SeenThreeGemsInHandScene
+LABEL 2
+NoFade
+ENDA
